@@ -35,9 +35,9 @@ __Statistics 131A: Introduction to Probability and Statistics for Life Scientist
 
 ### Description
 
-__Statistics 131A__ is a course designed primarily as an introductory course for statistical thinking, ideas for estimation and hypothesis testing basic to applications, including an introduction to probability. Linear estimation and normal regression theory. You do need to be comfortable with math at the level of intermediate algebra (e.g., the equation of a straight line, plotting points, taking powers and roots, percentages).
+__Statistics 131A__ is designed primarily as an introductory course for statistical thinking. Topics include descriptive statistics, association, correlation, regression, elements of probability, chance variability, random variables, expectation, standard error, sampling, hypothesis tests, confidence intervals, experiments and observational studies.
 
-The emphasis of the course is critical thinking about quantitative evidence. Topics include descriptive statistics, association, correlation, regression, elements of probability, chance variability, random variables, expectation, standard error, sampling, hypothesis tests, confidence intervals, experiments and observational studies.
+You do need to be comfortable with math at the level of intermediate algebra (e.g., the equation of a straight line, plotting points, taking powers and roots, percentages, inequalities).
 
 You should expect to spend about 7 hours of outside work hours per week, 2 hours of instructional experiences requiring special laboratory equipment and facilities per week, and 3 hours of instructor presentation of course materials per week.
 
