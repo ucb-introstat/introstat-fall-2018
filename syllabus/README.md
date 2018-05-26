@@ -39,19 +39,15 @@
     + Histograms, skeweness, and distributions
     + Measures of center 1
     + Measures of center 2
-- :mag_right: __Demo__:
-    + histograms app
+    + histograms (demo)
 - :book: __Reading__:
     + [Chapter 3: Statistics](https://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm)
     + [Chapter 4: Measures of Location and Spread](https://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm)
 - :microscope: __Lab__:
     + Getting started with R and RStudio
-    + Data ana variables (vectors)
-- :bulb: __Cheat sheet__: 
-    + [RStudio cheat sheet](../cheatsheets/rstudio-IDE-cheatsheet.pdf)
-    + [R markdown cheat sheet](../cheatsheets/rmarkdown-cheatsheet-2.0.pdf)
-- :dart: __HW 01__:
-    + Markdown (due Sep-07)
+    + Data and variables (vectors)
+- :bulb: __Cheatsheet__: [RStudio cheat sheet](../cheatsheets/rstudio-IDE-cheatsheet.pdf) and [R markdown cheat sheet](../cheatsheets/rmarkdown-cheatsheet-2.0.pdf)
+- :dart: __HW 01__: Markdown (due Sep-07)
 
 
 -----
@@ -65,17 +61,14 @@
     + Five-number summary and Boxplots
     + Measures of Spread
     + Normal Curve
-- :mag_right: __Demo__:
-    + normal curve app
+    + normal curve (demo)
 - :book: __Reading__:
     + [Chapter 4: Measures of Location and Spread](https://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm)
 - :microscope: __Lab__:
     + Histograms and Boxplots in R
     + Measures of Spread in R
-- :bulb: __Cheat sheet__: 
-    + [Base R](../cheatsheets/base-r-cheatsheet.pdf)
-- :dart: __HW 02__:
-    + Distributions (due Sep-14)
+- :bulb: __Cheatsheet__: [Base R](../cheatsheets/base-r-cheatsheet.pdf)
+- :dart: __HW 02__: Distributions (due Sep-14)
 
 
 -----
@@ -88,18 +81,15 @@
 - :file_folder: __Notes__:
     + Scatter diagrams and correlation
     + More about correlation
-- :mag_right: __Demo__:
-    + corr-coeff-diagrams app
+    + corr-coeff-diagrams (demo)
 - :book: __Reading__:
     + [Chapter 5: Scatterplots](https://www.stat.berkeley.edu/~stark/SticiGui/Text/scatterplots.htm)
     + [Chapter 7: Correlation](https://www.stat.berkeley.edu/~stark/SticiGui/Text/correlation.htm)
 - :microscope: __Lab__:
     + Normal curve in R
     + Scatter diagrams and correlation in R
-- :bulb: __Cheat sheet__:
-    + [Data import cheat sheet](../cheatsheets/data-import-cheatsheet.pdf)
-- :dart: __HW 03__:
-    + Correlation (due Sep-21)
+- :bulb: __Cheatsheet__: [Data import cheat sheet](../cheatsheets/data-import-cheatsheet.pdf)
+- :dart: __HW 03__: Correlation (due Sep-21)
 
 
 -----
@@ -113,16 +103,14 @@
     + Intro to Regression
     + RMS Error for Regression
     + Regression Line
-- :mag_right: __Demo__:
-    + heights-data app
+    + heights-data (demo)
 - :book: __Reading__:
     + [Chapter 8: Computing the correlation coefficient](https://www.stat.berkeley.edu/~stark/SticiGui/Text/computeR.htm)
     + [Chapter 9: Regression](https://www.stat.berkeley.edu/~stark/SticiGui/Text/regression.htm)
 - :microscope: __Lab__:
     + Regression line with R
     + Predictions and Errors with R
-- :dart: __HW 04__:
-    + Regression (due Sep 28)
+- :dart: __HW 04__: Regression (due Sep 28)
 
 
 -----
@@ -136,15 +124,13 @@
     + Intro to Regression
     + RMS Error for Regression
     + Regression Line
-- :mag_right: __Demo__:
-    + regression-residuals app
-    + regression-strips app
+    + regression-residuals (demo)
+    + regression-strips (demo)
 - :book: __Reading__:
     + [Chapter 10: Regression Diagnostics](https://www.stat.berkeley.edu/~stark/SticiGui/Text/regressionDiagnostics.htm)
     + [Chapter 11: Errors in Regression](https://www.stat.berkeley.edu/~stark/SticiGui/Text/regressionErrors.htm)
 - :microscope: __Lab__:
     + Regression line with R
     + Predictions and Errors with R
-- :dart: __HW 05__:
-    + Regression (due Oct-05)
+- :dart: __HW 05__: Regression (due Oct-05)
 - :mortar_board: __MIDTERM 1__: Friday Sep-28
