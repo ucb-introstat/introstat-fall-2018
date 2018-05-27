@@ -1,0 +1,78 @@
+Name,Manufacturer,Target,Type,Shelf,Calories,Cups,Weight,Protein,Fat,Sodium,Fiber,Carbs,Sugars,Potassium,Vitamins,Rating,RatingCats
+100% Bran,Nabisco,adult,cold,top,70,0.33,1,4,1,130,10,5,6,280,25,68,healthy
+100% Natural Bran,Quaker Oats,adult,cold,top,120,1,1,3,5,15,2,8,8,135,0,34,unhealthy
+All-Bran,Kelloggs,adult,cold,top,70,0.33,1,4,1,260,9,7,5,320,25,59,healthy
+All-Bran Extra Fiber,Kelloggs,adult,cold,top,50,0.5,1,4,0,140,14,8,0,330,25,94,healthy
+Almond Delight,Ralston Purina,adult,cold,top,110,0.75,1,2,2,200,1,14,8,"",25,34,unhealthy
+Apple Cinnamon Cheerios,General Mills,child,cold,bottom,110,0.75,1,2,2,180,1.5,10.5,10,70,25,30,unhealthy
+Apple Jacks,Kelloggs,child,cold,middle,110,1,1,2,0,125,1,11,14,30,25,33,unhealthy
+Basic 4,General Mills,adult,cold,top,130,0.75,1.33,3,2,210,2,18,8,100,25,37,unhealthy
+Bran Chex,Ralston Purina,adult,cold,bottom,90,0.67,1,2,1,200,4,15,6,125,25,49,healthy
+Bran Flakes,Post,adult,cold,top,90,0.67,1,3,0,210,5,13,5,190,25,53,healthy
+Cap'n'Crunch,Quaker Oats,child,cold,middle,120,0.75,1,1,2,220,0,12,12,35,25,18,unhealthy
+Cheerios,General Mills,child,cold,bottom,110,1.25,1,6,2,290,2,17,1,105,25,51,healthy
+Cinnamon Toast Crunch,General Mills,child,cold,middle,120,0.75,1,1,3,210,0,13,9,45,25,20,unhealthy
+Clusters,General Mills,adult,cold,top,110,0.5,1,3,2,140,2,13,7,105,25,40,unhealthy
+Cocoa Puffs,General Mills,child,cold,middle,110,1,1,1,1,180,0,12,13,55,25,23,unhealthy
+Corn Chex,Ralston Purina,adult,cold,bottom,110,1,1,2,0,280,0,22,3,25,25,41,healthy
+Corn Flakes,Kelloggs,adult,cold,bottom,100,1,1,2,0,290,1,21,2,35,25,46,healthy
+Corn Pops,Kelloggs,child,cold,middle,110,1,1,1,0,90,1,13,12,20,25,36,unhealthy
+Count Chocula,General Mills,child,cold,middle,110,1,1,1,1,180,0,12,13,65,25,22,unhealthy
+Cracklin' Oat Bran,Kelloggs,adult,cold,top,110,0.5,1,3,3,140,4,10,7,160,25,40,unhealthy
+Cream of Wheat (Quick),Nabisco,adult,hot,middle,100,1,1,3,0,80,1,21,0,"",0,65,healthy
+Crispix,Kelloggs,adult,cold,top,110,1,1,2,0,220,1,21,3,30,25,47,healthy
+Crispy Wheat & Raisins,General Mills,adult,cold,top,100,0.75,1,2,1,140,2,11,10,120,25,36,unhealthy
+Double Chex,Ralston Purina,adult,cold,top,100,0.75,1,2,0,190,1,18,5,80,25,44,healthy
+Froot Loops,Kelloggs,child,cold,middle,110,1,1,2,1,125,1,11,13,30,25,32,unhealthy
+Frosted Flakes,Kelloggs,child,cold,bottom,110,0.75,1,1,0,200,1,14,11,25,25,31,unhealthy
+Frosted Mini-Wheats,Kelloggs,adult,cold,middle,100,0.8,1,3,0,0,3,14,7,100,25,58,healthy
+Fruit & Fibre,Post,adult,cold,top,120,0.67,1.25,3,2,160,5,12,10,200,25,41,healthy
+Fruitful Bran,Kelloggs,adult,cold,top,120,0.67,1.33,3,0,240,5,14,12,190,25,41,healthy
+Fruity Pebbles,Post,child,cold,middle,110,0.75,1,1,1,135,0,13,12,25,25,28,unhealthy
+Golden Crisp,Post,child,cold,bottom,100,0.88,1,2,0,45,0,11,15,40,25,35,unhealthy
+Golden Grahams,General Mills,child,cold,middle,110,0.75,1,1,1,280,0,15,9,45,25,24,unhealthy
+Grape Nuts Flakes,Post,adult,cold,top,100,0.88,1,3,1,140,3,15,5,85,25,52,healthy
+Grape-Nuts,Post,adult,cold,top,110,0.25,1,3,0,170,3,17,3,90,25,53,healthy
+Great Grains Pecan,Post,adult,cold,top,120,0.33,1,3,3,75,3,13,4,100,25,46,healthy
+Honey Graham Ohs,Quaker Oats,child,cold,middle,120,1,1,1,2,220,1,12,11,45,25,22,unhealthy
+Honey Nut Cheerios,General Mills,child,cold,bottom,110,0.75,1,3,1,250,1.5,11.5,10,90,25,31,unhealthy
+Honey-comb,Post,child,cold,bottom,110,1.33,1,1,0,180,0,14,11,35,25,29,unhealthy
+Just Right Crunchy Nuggets,Kelloggs,adult,cold,top,110,1,1,2,1,170,1,17,6,60,100,37,unhealthy
+Just Right Fruit & Nut,Kelloggs,adult,cold,top,140,0.75,1.3,3,1,170,2,20,9,95,100,36,unhealthy
+Kix,General Mills,child,cold,middle,110,1.5,1,2,1,260,0,21,3,40,25,39,unhealthy
+Life,Quaker Oats,child,cold,middle,100,0.67,1,4,2,150,2,12,6,95,25,45,healthy
+Lucky Charms,General Mills,child,cold,middle,110,1,1,2,1,180,0,12,12,55,25,27,unhealthy
+Maypo,American HFP,adult,hot,middle,100,1,1,4,1,0,0,16,3,95,25,55,healthy
+Muesli Raisins Dates & Almonds,Ralston Purina,adult,cold,top,150,1,1,4,3,95,3,16,11,170,25,37,unhealthy
+Muesli Raisins Peaches & Pecans,Ralston Purina,adult,cold,top,150,1,1,4,3,150,3,16,11,170,25,34,unhealthy
+Mueslix Crispy Blend,Kelloggs,adult,cold,top,160,0.67,1.5,3,2,150,3,17,13,160,25,39,unhealthy
+Multi-Grain Cheerios,General Mills,adult,cold,bottom,100,1,1,2,1,220,2,15,6,90,25,40,unhealthy
+Nut&Honey Crunch,Kelloggs,adult,cold,middle,120,0.67,1,2,1,190,0,15,9,40,25,30,unhealthy
+Nutri-Grain Almond-Raisin,Kelloggs,adult,cold,top,140,0.67,1.33,3,2,220,3,21,7,130,25,41,healthy
+Nutri-grain Wheat,Kelloggs,adult,cold,top,90,1,1,3,0,170,3,18,2,90,25,60,healthy
+Oatmeal Raisin Crisp,General Mills,adult,cold,top,130,0.5,1.25,3,2,170,1.5,13.5,10,120,25,30,unhealthy
+Post Nat. Raisin Bran,Post,adult,cold,top,120,0.67,1.33,3,1,200,6,11,14,260,25,38,unhealthy
+Product 19,Kelloggs,adult,cold,top,100,1,1,3,0,320,1,20,3,45,100,42,healthy
+Puffed Rice,Quaker Oats,adult,cold,top,50,1,0.5,1,0,0,0,13,0,15,0,61,healthy
+Puffed Wheat,Quaker Oats,adult,cold,top,50,1,0.5,2,0,0,1,10,0,50,0,63,healthy
+Quaker Oat Squares,Quaker Oats,adult,cold,top,100,0.5,1,4,1,135,2,14,6,110,25,50,healthy
+Quaker Oatmeal,Quaker Oats,adult,hot,bottom,100,0.67,1,5,2,0,2.7,"","",110,0,51,healthy
+Raisin Bran,Kelloggs,adult,cold,middle,120,0.75,1.33,3,1,210,5,14,12,240,25,39,unhealthy
+Raisin Nut Bran,General Mills,adult,cold,top,100,0.5,1,3,2,140,2.5,10.5,8,140,25,40,unhealthy
+Raisin Squares,Kelloggs,adult,cold,top,90,0.5,1,2,0,0,2,15,6,110,25,55,healthy
+Rice Chex,Ralston Purina,adult,cold,bottom,110,1.13,1,1,0,240,0,23,2,30,25,42,healthy
+Rice Krispies,Kelloggs,child,cold,bottom,110,1,1,2,0,290,0,22,3,35,25,41,healthy
+Shredded Wheat,Nabisco,adult,cold,bottom,80,1,0.83,2,0,0,3,16,0,95,0,68,healthy
+Shredded Wheat 'n'Bran,Nabisco,adult,cold,bottom,90,0.67,1,3,0,0,4,19,0,140,0,74,healthy
+Shredded Wheat spoon size,Nabisco,adult,cold,bottom,90,0.67,1,3,0,0,3,20,0,120,0,73,healthy
+Smacks,Kelloggs,child,cold,middle,110,0.75,1,2,1,70,1,9,15,40,25,31,unhealthy
+Special K,Kelloggs,adult,cold,bottom,110,1,1,6,0,230,1,16,3,55,25,53,healthy
+Strawberry Fruit Wheats,Nabisco,child,cold,middle,90,1,1,2,0,15,3,15,5,90,25,59,healthy
+Total Corn Flakes,General Mills,adult,cold,top,110,1,1,2,1,200,0,21,3,35,100,39,unhealthy
+Total Raisin Bran,General Mills,adult,cold,top,140,1,1.5,3,1,190,4,15,14,230,100,29,unhealthy
+Total Whole Grain,General Mills,adult,cold,top,100,1,1,3,1,200,3,16,3,110,100,47,healthy
+Triples,General Mills,adult,cold,top,110,0.75,1,2,1,250,0,21,3,60,25,39,unhealthy
+Trix,General Mills,child,cold,middle,110,1,1,1,1,140,0,13,12,25,25,28,unhealthy
+Wheat Chex,Ralston Purina,adult,cold,bottom,100,0.67,1,3,1,230,3,17,3,115,25,50,healthy
+Wheaties,General Mills,child,cold,bottom,100,1,1,3,1,200,3,17,3,110,25,52,healthy
+Wheaties Honey Gold,General Mills,child,cold,bottom,110,0.75,1,2,1,200,1,16,8,60,25,36,unhealthy
