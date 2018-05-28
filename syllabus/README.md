@@ -18,8 +18,7 @@
     + [Welcome to Stat 131A](../slides/00-about-course.pdf) (slides)
     + [What is Data?](../slides/01-data.pdf) (slides)
 - :book: __Reading__:
-    + [Course policies](policies.md)
-    + [Piazza etiquette](piazza.md)
+    + [Course policies](policies.md) and [Piazza etiquette](piazza.md)
     + [Chapter 3: Statistics](https://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm)
 - :microscope: __Lab__: No lab
 - :speaker: __To Do__: 
@@ -37,16 +36,16 @@
 - :file_folder: __Notes__:
     + Frequency tables and Barcharts
     + Histograms, skeweness, and distributions
-    + Measures of center 1
-    + Measures of center 2
-    + histograms (demo)
+    + Histograms (demo)
+    + Measures of center (part 1)
+    + Measures of center (part 2)
 - :book: __Reading__:
     + [Chapter 3: Statistics](https://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm)
     + [Chapter 4: Measures of Location and Spread](https://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm)
 - :microscope: __Lab__:
     + Getting started with R and RStudio
-    + Data and variables (vectors)
-- :bulb: __Cheatsheet__: [RStudio cheat sheet](../cheatsheets/rstudio-IDE-cheatsheet.pdf) and [R markdown cheat sheet](../cheatsheets/rmarkdown-cheatsheet-2.0.pdf)
+    + [Variables and histograms](../labs/lab01b-histograms-questions.pdf)
+- :bulb: __Cheatsheet__: [RStudio cheat sheet](../cheatsheets/rstudio-cheatsheet.pdf) and [R markdown cheat sheet](../cheatsheets/rmarkdown-cheatsheet.pdf)
 - :dart: __HW 01__: Markdown (due Sep-07)
 
 
