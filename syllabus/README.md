@@ -59,10 +59,11 @@
 - :paperclip: __Topics__: Learning about measures of spread, their meanings, properties, rationales, and how to use them in practice. Also, first contact with the normal curve, and its approximation for symmetric bell-shaped distributions.
 - :file_folder: __Notes__:
     + [Measures of spread: Standard Deviation](../slides/istat-lec07-spread-sd.pdf)
-    + Normal Curve
-    + normal curve (demo)
+    + [Normal Curve](../slides/istat-lec08-normal-curve.pdf)
+    + Normal curve (demo)
 - :book: __Reading__:
     + [Chapter 4: Measures of Location and Spread](https://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm)
+    + [Chapter 23: Normal Curve](https://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm)
 - :microscope: __Lab__:
     + Centers (Tu)
     + Boxplots (Th)
@@ -78,8 +79,8 @@
 - :card_index: __Dates__: Sep 10-14
 - :paperclip: __Topics__: Tools for studying relationships between two quantitative variables: scatter plots, correlation coefficient, regression analysis.
 - :file_folder: __Notes__:
-    + Scatter diagrams and correlation
-    + More about correlation
+    + [Scatter diagrams and correlation](../slides/istat-lec09-scatterplots-correlation.pdf)
+    + [More about correlation](../slides/istat-lec10-more-about-correlation.pdf)
     + corr-coeff-diagrams (demo)
 - :book: __Reading__:
     + [Chapter 5: Scatterplots](https://www.stat.berkeley.edu/~stark/SticiGui/Text/scatterplots.htm)
