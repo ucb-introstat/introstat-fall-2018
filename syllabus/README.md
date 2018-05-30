@@ -15,9 +15,9 @@
 - :card_index: __Dates__: Aug 22-24
 - :paperclip: __Topics__: Understand the concept of "data" for statistical analysis, the concept of variables, difference between qualitative and quantitative variables. Also, summarizing information with frquency tables, and visual displays with bar-charts.
 - :file_folder: __Notes__:
-    + [Welcome to Stat 131A](../slides/00-about-course.pdf) (slides)
-    + [What is Data?](../slides/01-data.pdf) (slides)
-    + Frequency tables and Barcharts
+    + [Welcome to Stat 131A](../slides/00-about-course.pdf)
+    + [What is Data?](../slides/istat-lec01-data-variables.pdf)
+    + [Frequency tables and Barcharts](../slides/istat-lec02-barcharts.pdf)
 - :book: __Reading__:
     + [Course policies](policies.md) and [Piazza etiquette](piazza.md)
     + [Chapter 3: Statistics](https://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm)
@@ -35,11 +35,11 @@
 - :card_index: __Dates__: Aug 27-31
 - :paperclip: __Topics__: Understand histograms, how to read them, how to graph them, and what makes them different from bar-charts. Likewise, learn about measures of center, their meanings, properties, and how to use them in practice. In addition, we discuss other summaries for describing distributions.
 - :file_folder: __Notes__:
-    + Histograms, skeweness, and distributions
+    + [Histograms, skeweness, and distributions](../slides/istat-lec03-histograms.pdf)
     + Histograms (demo)
-    + Measures of center
-    + Using mean and median
-    + Five-number summary and Boxplots
+    + [Measures of center](../slides/istat-lec04-measures-of-center1.pdf)
+    + [Using mean and median](../slides/istat-lec05-measures-of-center2.pdf)
+    + [Five-number summary and Boxplots](../slides/istat-lec06-spread-boxplots.pdf)
 - :book: __Reading__:
     + [Chapter 3: Statistics](https://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm)
     + [Chapter 4: Measures of Location and Spread](https://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm)
@@ -58,7 +58,7 @@
 - :card_index: __Dates__: Sep 03-07 _(Holiday Sep-03)_
 - :paperclip: __Topics__: Learning about measures of spread, their meanings, properties, rationales, and how to use them in practice. Also, first contact with the normal curve, and its approximation for symmetric bell-shaped distributions.
 - :file_folder: __Notes__:
-    + Measures of spread
+    + [Measures of spread: Standard Deviation](../slides/istat-lec07-spread-sd.pdf)
     + Normal Curve
     + normal curve (demo)
 - :book: __Reading__:
