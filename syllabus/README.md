@@ -101,9 +101,9 @@
 - :card_index: __Dates__: Sep 17-21
 - :paperclip: __Topics__: Regression Analysis
 - :file_folder: __Notes__:
-    + Intro to Regression
+    + [Intro to Regression](../slides/istat-lec11-regression-intro.pdf)
+    + [Regression Line](../slides/istat-lec12-regression-line.pdf)
     + RMS Error for Regression
-    + Regression Line
     + heights-data (demo)
 - :book: __Reading__:
     + [Chapter 9: Regression](https://www.stat.berkeley.edu/~stark/SticiGui/Text/regression.htm)
