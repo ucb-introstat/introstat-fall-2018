@@ -131,3 +131,106 @@
     + Review (Th)
 - :dart: __HW 05__: Regression (due Oct-05)
 - :mortar_board: __MIDTERM 1__: Friday Sep-28
+
+
+-----
+
+
+## 6. Two-way tables and probability basics
+
+- :card_index: __Dates__: Oct 01-05
+- :paperclip: __Topics__: We turn our attention to categorical variables. The objective is to study the relationship between two categorical variables and introduce you to the concept of probability. Two-way tables give us a practical context for talking about probability. We also use two-way tables to help us visualize and solve real-world problems involving probability.
+- :file_folder: __Notes__:
+    + two-way tables
+    + probability concepts part 1
+    + probability concepts part 2
+- :book: __Reading__:
+    + [Chapter 13: The Meaning of Probability](https://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityPhilosophy.htm)
+    + [Chapter 17: Probability, Axioms and Fundamentals](https://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityAxioms.htm)
+    + [Chapter 18: The Monty Hall Problem](https://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHall.htm)
+- :microscope: __Lab__:
+    + Two-way tables 1 (Tu)
+    + Probability 1 (Th)
+- :dart: __HW 06__: TBD (due Oct-dd)
+
+
+-----
+
+
+## 7. Probability and Random Variables (part 1)
+
+- :card_index: __Dates__: Oct 08-12
+- :paperclip: __Topics__: We discuss probability more generally. Then we begin to develop the probability machinery that underlies inference.
+- :file_folder: __Notes__:
+    + random variables, and box models
+    + expected value
+    + standard error
+- :book: __Reading__:
+    + [Chapter 19: Probability Meets Data](https://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHallTest.htm)
+    + [Chapter 20: Random Variables and Discrete Distributions](https://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm)
+    + [Chapter 21: The Long Run and the Expected Value](https://www.stat.berkeley.edu/~stark/SticiGui/Text/expectation.htm)
+- :microscope: __Lab__:
+    + Probability 2 (Tu)
+    + Binomial (Th)
+- :dart: __HW 07__: TBD (due Oct-dd)
+
+
+-----
+
+
+## 8. Probability and Random Variables (part 2)
+
+- :card_index: __Dates__: Oct 15-19
+- :paperclip: __Topics__: We discuss probability more generally. Then we begin to develop the probability machinery that underlies inference.
+- :file_folder: __Notes__:
+    + random variables, and box models
+    + expected value
+    + standard error
+- :book: __Reading__:
+    + [Chapter 22: Standard Error](https://www.stat.berkeley.edu/~stark/SticiGui/Text/standardError.htm)
+    + [Chapter 23: Normal Distribution](https://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm)
+    + [Chapter 24: Sampling](https://www.stat.berkeley.edu/~stark/SticiGui/Text/sampling.htm)
+- :microscope: __Lab__:
+    + TBD (Tu)
+    + TBD (Th)
+- :dart: __HW 08__: TBD (due Oct-dd)
+
+
+-----
+
+
+## 9. Sampling and Chance Errors (part 1)
+
+- :card_index: __Dates__: Oct 22-26
+- :paperclip: __Topics__: We discuss probability more generally. Then we begin to develop the probability machinery that underlies inference.
+- :file_folder: __Notes__:
+    + random variables, and box models
+    + expected value
+    + standard error
+- :book: __Reading__:
+    + [Chapter 22: Standard Error](https://www.stat.berkeley.edu/~stark/SticiGui/Text/standardError.htm)
+    + [Chapter 23: Normal Distribution](https://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm)
+- :microscope: __Lab__:
+    + TBD (Tu)
+    + TBD (Th)
+- :dart: __HW 09__: TBD (due Oct-dd)
+
+
+-----
+
+
+## 10. Sampling and Chance Errors (part 2)
+
+- :card_index: __Dates__: Oct 29-31, Nov 02
+- :paperclip: __Topics__: A central problem in statistics is to obtain information about a population, a collection of units, without examining every unit in the population—only a sample from the population.
+- :file_folder: __Notes__:
+    + Sampling
+    + Chance errors
+- :book: __Reading__:
+    + [Chapter 24: Sampling](https://www.stat.berkeley.edu/~stark/SticiGui/Text/sampling.htm)
+    + [Chapter 25: Estimating Parameters from SRS](https://www.stat.berkeley.edu/~stark/SticiGui/Text/estimation.htm)
+- :microscope: __Lab__:
+    + TBD (Tu)
+    + TBD (Th)
+- :dart: __HW 10__: TBD (due Nov-dd)
+- :mortar_board: __MIDTERM 2__: Friday Nov-02
