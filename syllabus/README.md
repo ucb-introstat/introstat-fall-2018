@@ -271,3 +271,49 @@
     + TBD (Tu)
     + TBD (Th)
 - :dart: __HW 12__: TBD (due Nov-dd)
+
+
+-----
+
+
+## 13. Thanksgiving
+
+- :card_index: __Dates__: Nov 26-30
+- :paperclip: __Topics__: Tests of significance.
+- :file_folder: __Notes__:
+    + Hypothesis test for two Means
+- :book: __Reading__:
+    + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
+- :microscope: __Lab__:
+    + TBD (Tu)
+- :dart: __HW 13__: TBD (due Nov-dd)
+
+
+-----
+
+
+## 14. Hypothesis Tests
+
+- :card_index: __Dates__: Nov 26-30
+- :paperclip: __Topics__: More about tests of significance.
+- :file_folder: __Notes__:
+    + More about tests
+- :book: __Reading__:
+    + [Chapter 31: Chi-Squared Test](https://www.stat.berkeley.edu/~stark/SticiGui/Text/chiSquare.htm)
+- :microscope: __Lab__:
+    + TBD (Tu)
+    + TBD (Th)
+
+
+-----
+
+
+## 15. RRR Week and Final Exam
+
+- :card_index: __Dates__: Dec 03-07
+- :paperclip: __Topics__: Prepare for final examination
+- :file_folder: __Notes__:
+    + No lecture. Instructor will hold OH (in 309 Evans)
+- :mortar_board: __FINAL__: Dec dd, time1-time2, Room TBA
+    + See announcement about the final test on bCourses
+
