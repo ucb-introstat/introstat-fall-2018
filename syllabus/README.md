@@ -234,3 +234,40 @@
     + TBD (Th)
 - :dart: __HW 10__: TBD (due Nov-dd)
 - :mortar_board: __MIDTERM 2__: Friday Nov-02
+
+
+-----
+
+
+## 11. Confidence Intervals
+
+- :card_index: __Dates__: Nov 05-09
+- :paperclip: __Topics__: Accuracy of estimators.
+- :file_folder: __Notes__:
+    + Confidence Intervals for Proportions
+    + Confidence Intervals for Means
+- :book: __Reading__:
+    + [Chapter 26: Confidence Intervals](https://www.stat.berkeley.edu/~stark/SticiGui/Text/confidenceIntervals.htm)
+- :microscope: __Lab__:
+    + TBD (Tu)
+    + TBD (Th)
+- :dart: __HW 11__: TBD (due Nov-dd)
+
+
+-----
+
+
+## 12. Hypothesis Tests
+
+- :card_index: __Dates__: Nov 12-16
+- :paperclip: __Topics__: Tests of significance.
+- :file_folder: __Notes__:
+    + Introduction to Hypothesis Tests
+    + Hypothesis test for one Mean
+    + Hypothesis test for one Proportion
+- :book: __Reading__:
+    + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
+- :microscope: __Lab__:
+    + TBD (Tu)
+    + TBD (Th)
+- :dart: __HW 12__: TBD (due Nov-dd)
