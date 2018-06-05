@@ -259,12 +259,11 @@
 
 ## 12. Hypothesis Tests
 
-- :card_index: __Dates__: Nov 12-16
+- :card_index: __Dates__: Nov 12-16 _(Holiday Nov 12)_
 - :paperclip: __Topics__: Tests of significance.
 - :file_folder: __Notes__:
     + Introduction to Hypothesis Tests
     + Hypothesis test for one Mean
-    + Hypothesis test for one Proportion
 - :book: __Reading__:
     + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
 - :microscope: __Lab__:
@@ -276,12 +275,12 @@
 -----
 
 
-## 13. Thanksgiving
+## 13. Thanksgiving Week
 
-- :card_index: __Dates__: Nov 26-30
+- :card_index: __Dates__: Nov 19-23 _(No instruction Nov 21-23)_
 - :paperclip: __Topics__: Tests of significance.
 - :file_folder: __Notes__:
-    + Hypothesis test for two Means
+    + Hypothesis test for one Proportion
 - :book: __Reading__:
     + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
 - :microscope: __Lab__:
