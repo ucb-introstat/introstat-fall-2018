@@ -44,7 +44,7 @@
     + [Chapter 3: Statistics](https://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm)
     + [Chapter 4: Measures of Location and Spread](https://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm)
 - :microscope: __Lab__:
-    + Getting started with R and RStudio (Tu)
+    + [Getting started with R and RStudio](../labs/lab01a-R-basics.md) (Tu)
     + [Variables and histograms](../labs/lab01b-histograms-questions.pdf) (Th)
 - :bulb: __Cheatsheet__: [RStudio cheat sheet](../cheatsheets/rstudio-cheatsheet.pdf) and [R markdown cheat sheet](../cheatsheets/rmarkdown-cheatsheet.pdf)
 - :dart: __HW 01__: Markdown (due Sep-07)
