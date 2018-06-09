@@ -242,7 +242,7 @@
 ## 11. Confidence Intervals
 
 - :card_index: __Dates__: Nov 05-09
-- :paperclip: __Topics__: Accuracy of estimators.
+- :paperclip: __Topics__: One of the goals of inference is to draw a conclusion about a population on the basis of a random sample from the population. Obviously, random samples vary, so we need to understand how much they vary and how they relate to the population. Our ultimate goal is to create a probability model that describes the long-run behavior of sample measurements. We use this model to make inferences about the population.
 - :file_folder: __Notes__:
     + Confidence Intervals for Proportions
     + Confidence Intervals for Means
