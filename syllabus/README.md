@@ -260,7 +260,7 @@
 ## 12. Hypothesis Tests
 
 - :card_index: __Dates__: Nov 12-16 _(Holiday Nov 12)_
-- :paperclip: __Topics__: Tests of significance.
+- :paperclip: __Topics__: Now we look more carefully at how to test a claim with a hypothesis test. Statistical investigations begin with research questions. We begin our discussion of hypothesis tests with research questions that require us to test a claim. Later we look at how a claim becomes a hypothesis.
 - :file_folder: __Notes__:
     + Introduction to Hypothesis Tests
     + Hypothesis test for one Mean
