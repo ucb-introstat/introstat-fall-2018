@@ -13,11 +13,11 @@
 ## 0. Course Introduction, Data and Variables
 
 - :card_index: __Dates__: Aug 22-24
-- :paperclip: __Topics__: Understand the concept of "data" for statistical analysis, the concept of variables, difference between qualitative and quantitative variables. Also, summarizing information with frquency tables, and visual displays with bar-charts.
+- :paperclip: __Topics__: Understand the concept of "data" for statistical analysis, the concept of variables, and the difference between qualitative and quantitative variables. Also, learn how to summarize information with frequency tables, and visual displays with bar-charts.
 - :file_folder: __Notes__:
     + [Welcome to Stat 131A](../slides/00-about-course.pdf)
-    + [What is Data?](../slides/istat-lec01-data-variables.pdf)
-    + [Frequency tables and Barcharts](../slides/istat-lec02-barcharts.pdf)
+    + [What is data?](../slides/istat-lec01-data-variables.pdf)
+    + [Frequency tables and barcharts](../slides/istat-lec02-barcharts.pdf)
 - :book: __Reading__:
     + [Course policies](policies.md) and [Piazza etiquette](piazza.md)
     + [Chapter 3: Statistics](https://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm)
@@ -39,15 +39,15 @@
     + Histograms (demo)
     + [Measures of center](../slides/istat-lec04-measures-of-center1.pdf)
     + [Using mean and median](../slides/istat-lec05-measures-of-center2.pdf)
-    + [Five-number summary and Boxplots](../slides/istat-lec06-spread-boxplots.pdf)
+    + [Five-number summary and boxplots](../slides/istat-lec06-spread-boxplots.pdf)
 - :book: __Reading__:
     + [Chapter 3: Statistics](https://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm)
     + [Chapter 4: Measures of Location and Spread](https://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm)
 - :microscope: __Lab__:
-    + [Getting started with R and RStudio](../labs/lab01a-R-basics.md) (Tu)
-    + [Variables and histograms](../labs/lab01b-histograms-questions.pdf) (Th)
+    + [1a: Getting started with R and RStudio](../labs/lab01a-R-basics.md) (Tu; due Aug-29)
+    + [1b: Histograms](../labs/lab01b-histograms-questions.pdf) (Th; due Aug-31)
 - :bulb: __Cheatsheet__: [RStudio cheat sheet](../cheatsheets/rstudio-cheatsheet.pdf) and [R markdown cheat sheet](../cheatsheets/rmarkdown-cheatsheet.pdf)
-- :dart: __HW 01__: Markdown (due Sep-07)
+- :dart: __HW 01__: Markdown (due Sep-03)
 
 
 -----
@@ -65,10 +65,10 @@
     + [Chapter 4: Measures of Location and Spread](https://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm)
     + [Chapter 23: Normal Curve](https://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm)
 - :microscope: __Lab__:
-    + Centers (Tu)
-    + Boxplots (Th)
+    + 2a: Centers (Tu; due Sep-05)
+    + 2b: Boxplots (Th; due Sep-07)
 - :bulb: __Cheatsheet__: [Base R](../cheatsheets/base-r-cheatsheet.pdf)
-- :dart: __HW 02__: Distributions (due Sep-14)
+- :dart: __HW 02__: Distributions (due Sep-10)
 
 
 -----
@@ -87,10 +87,10 @@
     + [Chapter 7: Correlation](https://www.stat.berkeley.edu/~stark/SticiGui/Text/correlation.htm)
     + [Chapter 8: Computing the correlation coefficient](https://www.stat.berkeley.edu/~stark/SticiGui/Text/computeR.htm)
 - :microscope: __Lab__:
-    + Spreads (Tu)
-    + Normal curve (Th)
+    + 3a: Spreads (Tu; due Sep-12)
+    + 3b: Normal curve (Th; due Sep-14)
 - :bulb: __Cheatsheet__: [Data import cheat sheet](../cheatsheets/data-import-cheatsheet.pdf)
-- :dart: __HW 03__: Correlation (due Sep-21)
+- :dart: __HW 03__: Correlation (due Sep-17)
 
 
 -----
@@ -109,9 +109,9 @@
     + [Chapter 9: Regression](https://www.stat.berkeley.edu/~stark/SticiGui/Text/regression.htm)
     + [Chapter 10: Regression Diagnostics](https://www.stat.berkeley.edu/~stark/SticiGui/Text/regressionDiagnostics.htm)
 - :microscope: __Lab__:
-    + Regression line with R (Tu)
-    + Predictions and Errors with R (Th)
-- :dart: __HW 04__: Regression (due Sep 28)
+    + 4a: Regression line with R (Tu; due Sep-19)
+    + 4b: Predictions and Errors with R (Th; due Sep-21)
+- :dart: __HW 04__: Regression (due Sep-24)
 
 
 -----
@@ -127,9 +127,9 @@
 - :book: __Reading__:
     + [Chapter 11: Errors in Regression](https://www.stat.berkeley.edu/~stark/SticiGui/Text/regressionErrors.htm)
 - :microscope: __Lab__:
-    + Regression line with R (Tu)
-    + Review (Th)
-- :dart: __HW 05__: Regression (due Oct-05)
+    + 5a: Regression line with R (Tu; due Sep-26)
+    + 5b: Review (Th)
+- :dart: __HW 05__: Regression (due Sep-28)
 - :mortar_board: __MIDTERM 1__: Friday Sep-28
 
 
@@ -313,6 +313,6 @@
 - :paperclip: __Topics__: Prepare for final examination
 - :file_folder: __Notes__:
     + No lecture. Instructor will hold OH (in 309 Evans)
-- :mortar_board: __FINAL__: Dec dd, time1-time2, Room TBA
+- :mortar_board: __FINAL__: Dec Th 13, 3-6pm, Room TBA
     + See announcement about the final test on bCourses
 
