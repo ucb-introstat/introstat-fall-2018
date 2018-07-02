@@ -9,7 +9,7 @@ __Statistics 131A: Introduction to Probability and Statistics for Life Scientist
 - __Session Dates:__ 08/22/18 - 12/07/18
 - __Code #:__ 23907
 - __Units:__ 4 (more info [here](http://classes.berkeley.edu/content/2018-fall-stat-131A-001-lec-001))
-- __Final:__ mm/dd/yy (room TBD)
+- __Final:__ 12/13/18, 3-6pm (room TBD)
 - __Piazza:__ [piazza.com/berkeley/fall2018/stat131a](https://piazza.com/berkeley/fall2018/stat131a)
 - __Office Hours:__ You can go to the office hours of __any__ staff member.
 
