@@ -65,8 +65,8 @@
     + [Chapter 4: Measures of Location and Spread](https://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm)
     + [Chapter 23: Normal Curve](https://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm)
 - :microscope: __Lab__:
-    + 2a: Centers (Tu; due Sep-05)
-    + 2b: Boxplots (Th; due Sep-07)
+    + 2a: Centers and boxplots (Tu; due Sep-05)
+    + 2b: Boxplots and spreads (Th; due Sep-07)
 - :bulb: __Cheatsheet__: [Base R](../cheatsheets/base-r-cheatsheet.pdf)
 - :dart: __HW 02__: Distributions (due Sep-10)
 
@@ -87,8 +87,8 @@
     + [Chapter 7: Correlation](https://www.stat.berkeley.edu/~stark/SticiGui/Text/correlation.htm)
     + [Chapter 8: Computing the correlation coefficient](https://www.stat.berkeley.edu/~stark/SticiGui/Text/computeR.htm)
 - :microscope: __Lab__:
-    + 3a: Spreads (Tu; due Sep-12)
-    + 3b: Normal curve (Th; due Sep-14)
+    + 3a: Spreads and normal curve (Tu; due Sep-12)
+    + 3b: Scatterplots and correlation (Th; due Sep-14)
 - :bulb: __Cheatsheet__: [Data import cheat sheet](../cheatsheets/data-import-cheatsheet.pdf)
 - :dart: __HW 03__: Correlation (due Sep-17)
 
@@ -128,7 +128,7 @@
     + [Chapter 11: Errors in Regression](https://www.stat.berkeley.edu/~stark/SticiGui/Text/regressionErrors.htm)
 - :microscope: __Lab__:
     + 5a: Regression line with R (Tu; due Sep-26)
-    + 5b: Review (Th)
+    + 5b: Review session (Th)
 - :dart: __HW 05__: Regression (due Sep-28)
 - :mortar_board: __MIDTERM 1__: Friday Sep-28
 
