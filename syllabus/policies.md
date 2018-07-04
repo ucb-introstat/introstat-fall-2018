@@ -42,10 +42,13 @@ for participation.
 - Do not take the class if you cannot attend the discussion you are registered in.
 - You will be encouraged to problem solve individually or in groups.
 - Each person must submit each lab independently to bCourses, but you are welcome to collaborate with other students in your lab room.
-- To receive credit, you must attend lab, work on the lab assignment until you're finished or the lab period is over, and get checked off by a course staff member.
+- You must attend lab, work on the lab assignment until the lab period is over, and get checked off by a course staff member.
 - If you finish the lab early, we encourage you to help others with their lab.
-- The first two labs (lab01 and lab02) won't be part of your final grade.
+- Please plan ahead and pace yourself. Don't wait until the due day to do a lab assignment. Don't wait until the last minute to submit your lab assignments.
 - Your lab score will be computed based on both: 1) lab attendance, and 2) submission of completed lab assignments to bCourses.
+    + full credit: lab attendance and complete submission on time.
+    + half credit: lab attendance but no submission, or no attendance with complete submission on time.
+    + late submission (up to a week after due date) will receive a 50% deduction.
 
 
 
@@ -59,7 +62,6 @@ progress with the course.
 - Please plan ahead and pace yourself. Don't wait until the last day to do an assignment. Don't wait until the last minute to submit your assignments.
 - If you collaborate with other students when working on a HW assignment, please include the names of those students in your submission.
 - You must write your own answers (using your own words). Copy and plagiarism will not be tolerated (see _Academic Honesty_ policy).
-- Learning programming is frustrating, but it can be fun.
 
 
 
@@ -76,8 +78,8 @@ progress with the course.
 ### Exams
 
 - There will be two 50-minute in-class midterm tests, and one 3-hour final exam.
-- The midterm exams will be held in class (during lecture period). Tentative dates on ????. 
-- The final exam will be held from time1 to time2 on Month-day, as scheduled by the university, in a room to be announced.
+- The midterm exams will be held in class (during lecture period). Tentative dates displayed on the syllabus calendar. 
+- The final exam will be held from 3pm to 6pm on Dec-13, as scheduled by the university, in a room to be announced.
 - Unless you have accommodations as determined by the university, you must take the midterms and the final at the dates and times provided here.
 - Please check your course schedule and make sure that you have no conflicts with these exams.There will be __no early or makeup exams__. 
 - Do not take the class if you are not available at these dates and times.
@@ -99,9 +101,9 @@ Grades will be assigned using the following (tentative) weighted components:
 | Concept              | Weight |
 |----------------------|--------|
 | Class participation  |   5%   |
-| Lab work             |   5%   |
-| Assignments          |  10%   |
-| Midterms             |  40%   |
+| Lab work             |  10%   |
+| Homework             |  15%   |
+| Midterms             |  30%   |
 | Final                |  40%   |
 
 - No individual letter grades will be given for midterm, or final.
