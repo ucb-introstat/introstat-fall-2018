@@ -1,7 +1,9 @@
 ---
 title: "Histograms"
-author: "Gaston Sanchez"
-output: github_document
+subtitle: "Stat 131A, Fall 2018, Prof. Sanchez"
+output: pdf_document
+fontsize: 12pt
+urlcolor: blue
 ---
 
 > ### Learning Objectives
@@ -11,7 +13,7 @@ output: github_document
 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, fig.path = '04-images/')
+knitr::opts_chunk$set(echo = TRUE)
 nba <- read.csv('../data/nba_players.csv')
 ```
 
