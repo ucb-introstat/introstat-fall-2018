@@ -1,7 +1,9 @@
 ---
 title: "Data and Variables in R"
-author: "Gaston Sanchez"
-output: github_document
+subtitle: "Stat 131A, Fall 2018, Prof. Sanchez"
+output: pdf_document
+fontsize: 12pt
+urlcolor: blue
 ---
 
 > ### Learning Objectives:
@@ -28,7 +30,7 @@ Standings (season 2015-2016) shown in the following screenshot:
 knitr::include_graphics('03-images/western-conference-standings-2016.png')
 ```
 
-source: [http://www.basketball-reference.com/leagues/NBA_2016.html#all_confs_standings_E](http://www.basketball-reference.com/leagues/NBA_2016.html#all_confs_standings_E)
+[http://www.basketball-reference.com/leagues/NBA_2016.html#all_confs_standings_E](http://www.basketball-reference.com/leagues/NBA_2016.html#all_confs_standings_E)
 
 The above table contains 15 rows with 8 columns. The first column contains the
 names of the teams in the Western Conference, and the rest of the columns are:
