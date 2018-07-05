@@ -111,7 +111,7 @@ Grades will be assigned using the following (tentative) weighted components:
 - Letter grades are final; I don't enter into negotiations with students about grades.
 
 
-<a href="syllabus/policies.md"><img src="images/extra-credit.jpg"></a>
+<a href="syllabus/policies.md"><img src="../images/extra-credit.jpg"></a>
 
 
 ### Learning Cooperatively
