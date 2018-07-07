@@ -149,8 +149,8 @@
     + [Chapter 17: Probability, Axioms and Fundamentals](https://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityAxioms.htm)
     + [Chapter 18: The Monty Hall Problem](https://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHall.htm)
 - :microscope: __Lab__:
-    + Two-way tables 1 (Tu)
-    + Probability 1 (Th)
+    + 6a: Two-way tables 1 (Tu; due Oct-03)
+    + 6b: Probability 1 (Th; due Oct-05)
 - :dart: __HW 06__: TBD (due Oct-08)
 
 
@@ -170,8 +170,8 @@
     + [Chapter 20: Random Variables and Discrete Distributions](https://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm)
     + [Chapter 21: The Long Run and the Expected Value](https://www.stat.berkeley.edu/~stark/SticiGui/Text/expectation.htm)
 - :microscope: __Lab__:
-    + Probability 2 (Tu)
-    + Binomial (Th)
+    + 7a: Probability 2 (Tu; due Oct-10)
+    + 7b: Binomial (Th; due Oct-12)
 - :dart: __HW 07__: TBD (due Oct-15)
 
 
@@ -191,8 +191,8 @@
     + [Chapter 23: Normal Distribution](https://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm)
     + [Chapter 24: Sampling](https://www.stat.berkeley.edu/~stark/SticiGui/Text/sampling.htm)
 - :microscope: __Lab__:
-    + TBD (Tu)
-    + TBD (Th)
+    + 8a: TBD (Tu; due Oct-17)
+    + 8b: TBD (Th; due Oct-19)
 - :dart: __HW 08__: TBD (due Oct-22)
 
 
@@ -211,8 +211,8 @@
     + [Chapter 22: Standard Error](https://www.stat.berkeley.edu/~stark/SticiGui/Text/standardError.htm)
     + [Chapter 23: Normal Distribution](https://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm)
 - :microscope: __Lab__:
-    + TBD (Tu)
-    + TBD (Th)
+    + 9a: TBD (Tu; due Oct-24)
+    + 9b: TBD (Th; due Oct-26)
 - :dart: __HW 09__: TBD (due Oct-29)
 
 
@@ -230,8 +230,8 @@
     + [Chapter 24: Sampling](https://www.stat.berkeley.edu/~stark/SticiGui/Text/sampling.htm)
     + [Chapter 25: Estimating Parameters from SRS](https://www.stat.berkeley.edu/~stark/SticiGui/Text/estimation.htm)
 - :microscope: __Lab__:
-    + TBD (Tu)
-    + TBD (Th)
+    + 10a: TBD (Tu; due Oct-31)
+    + 10b: Review Session (Th)
 - :dart: __HW 10__: TBD (due Nov-02)
 - :mortar_board: __MIDTERM 2__: Friday Nov-02
 
@@ -285,7 +285,6 @@
     + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
 - :microscope: __Lab__:
     + TBD (Tu)
-- :dart: __HW 13__: TBD (due Nov-dd)
 
 
 -----
@@ -302,6 +301,7 @@
 - :microscope: __Lab__:
     + TBD (Tu)
     + TBD (Th)
+- :dart: __HW 13__: TBD (due Nov-dd)
 
 
 -----
