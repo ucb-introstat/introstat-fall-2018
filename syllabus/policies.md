@@ -109,6 +109,7 @@ Grades will be assigned using the following (tentative) weighted components:
 - No individual letter grades will be given for midterm, or final.
 - You will get a letter grade for the course that is based on your overall score.
 - Letter grades are final; I don't enter into negotiations with students about grades.
+- Please do not embarrass yourself and me by begging for extra credit after final grades have been awarded. Final grades are, well, final. Also, please remember that I grade your performance, not your personal worth.
 
 
 <a href="syllabus/policies.md"><img src="../images/extra-credit.jpg"></a>
