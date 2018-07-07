@@ -151,7 +151,7 @@
 - :microscope: __Lab__:
     + Two-way tables 1 (Tu)
     + Probability 1 (Th)
-- :dart: __HW 06__: TBD (due Oct-dd)
+- :dart: __HW 06__: TBD (due Oct-08)
 
 
 -----
@@ -172,7 +172,7 @@
 - :microscope: __Lab__:
     + Probability 2 (Tu)
     + Binomial (Th)
-- :dart: __HW 07__: TBD (due Oct-dd)
+- :dart: __HW 07__: TBD (due Oct-15)
 
 
 -----
@@ -193,7 +193,7 @@
 - :microscope: __Lab__:
     + TBD (Tu)
     + TBD (Th)
-- :dart: __HW 08__: TBD (due Oct-dd)
+- :dart: __HW 08__: TBD (due Oct-22)
 
 
 -----
@@ -213,7 +213,7 @@
 - :microscope: __Lab__:
     + TBD (Tu)
     + TBD (Th)
-- :dart: __HW 09__: TBD (due Oct-dd)
+- :dart: __HW 09__: TBD (due Oct-29)
 
 
 -----
@@ -232,7 +232,7 @@
 - :microscope: __Lab__:
     + TBD (Tu)
     + TBD (Th)
-- :dart: __HW 10__: TBD (due Nov-dd)
+- :dart: __HW 10__: TBD (due Nov-02)
 - :mortar_board: __MIDTERM 2__: Friday Nov-02
 
 
