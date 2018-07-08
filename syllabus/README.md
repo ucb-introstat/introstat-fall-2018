@@ -157,19 +157,16 @@
 -----
 
 
-## 7. Two-Way tables and Random Variables (part 1)
+## 7. Two-Way tables, Box Models and Random Variables (part 1)
 
 - :card_index: __Dates__: Oct 08-12
-- :paperclip: __Topics__: We turn our attention to categorical variables. The objective is to study the relationship between two categorical variables and introduce you to the concept of probability. Two-way tables give us a practical context for talking about probability. We also use two-way tables to help us visualize and solve real-world problems involving probability.
+- :paperclip: __Topics__: We turn our attention to categorical variables. The objective is to study the relationship between two categorical variables while linking the concept of probability to relative frequencies. We also use introduce the notion of Random Variables, and Box Models.
 - :file_folder: __Notes__:
     + Two-way tables: marginal, conditional, and joint frequencies
     + Introduction to Random Variables and box models
-    + Expected value
-    + Standard error
 - :book: __Reading__:
     + [Chapter 19: Probability Meets Data](https://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHallTest.htm) (Binomial Distribution)
-    + [Chapter 20: Random Variables and Discrete Distributions](https://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm)
-    + [Chapter 21: The Long Run and the Expected Value](https://www.stat.berkeley.edu/~stark/SticiGui/Text/expectation.htm)
+    + [Chapter 20: Random Variables and Discrete Distributions](https://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm) 
 - :microscope: __Lab__:
     + 7a: Probability rules 2 (Tu; due Oct-10)
     + 7b: TBD (Th; due Oct-12)
@@ -179,17 +176,19 @@
 -----
 
 
-## 8. Binomial and Normal Distributions
+## 8. More Random Variables: Binomial and Normal Distributions
 
 - :card_index: __Dates__: Oct 15-19
-- :paperclip: __Topics__: We discuss probability more generally. Then we begin to develop the probability machinery that underlies inference.
+- :paperclip: __Topics__: We dive deep into two of the most famous distributions: the binomial distribution, and the normal distribution. We also introduce the concepts of expected value and standard deviation/error of tickets randomly sampled from box models.
 - :file_folder: __Notes__:
     + Binomial Distribution
-    + Normal Distribution
+    + Normal Distribution (reminder)
+    + Expected value
+    + Standard error
 - :book: __Reading__:
-    + [Chapter 22: Standard Error](https://www.stat.berkeley.edu/~stark/SticiGui/Text/standardError.htm)
     + [Chapter 23: Normal Distribution](https://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm)
-    + [Chapter 24: Sampling](https://www.stat.berkeley.edu/~stark/SticiGui/Text/sampling.htm)
+    + [Chapter 21: The Long Run and the Expected Value](https://www.stat.berkeley.edu/~stark/SticiGui/Text/expectation.htm)
+    + [Chapter 22: Standard Error](https://www.stat.berkeley.edu/~stark/SticiGui/Text/standardError.htm)
 - :microscope: __Lab__:
     + 8a: TBD (Tu; due Oct-17)
     + 8b: TBD (Th; due Oct-19)
@@ -202,14 +201,13 @@
 ## 9. Sampling and Chance Errors (part 1)
 
 - :card_index: __Dates__: Oct 22-26
-- :paperclip: __Topics__: We discuss probability more generally. Then we begin to develop the probability machinery that underlies inference.
+- :paperclip: __Topics__: In this part we continue to develop the probability machinery that underlies inference (i.e. drawing conclusions from sample data).
 - :file_folder: __Notes__:
-    + random variables, and box models
-    + expected value
-    + standard error
+    + More expected value and standard error
+    + Sampling
 - :book: __Reading__:
-    + [Chapter 22: Standard Error](https://www.stat.berkeley.edu/~stark/SticiGui/Text/standardError.htm)
-    + [Chapter 23: Normal Distribution](https://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm)
+    + [Chapter 24: Sampling](https://www.stat.berkeley.edu/~stark/SticiGui/Text/sampling.htm)
+    + [Chapter 25: Estimating Parameters from SRS](https://www.stat.berkeley.edu/~stark/SticiGui/Text/estimation.htm)
 - :microscope: __Lab__:
     + 9a: TBD (Tu; due Oct-24)
     + 9b: TBD (Th; due Oct-26)
@@ -224,7 +222,7 @@
 - :card_index: __Dates__: Oct 29-31, Nov 02
 - :paperclip: __Topics__: A central problem in statistics is to obtain information about a population, a collection of units, without examining every unit in the population—only a sample from the population.
 - :file_folder: __Notes__:
-    + Sampling
+    + Sampling distributions
     + Chance errors
 - :book: __Reading__:
     + [Chapter 24: Sampling](https://www.stat.berkeley.edu/~stark/SticiGui/Text/sampling.htm)
