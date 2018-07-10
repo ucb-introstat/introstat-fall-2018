@@ -1,6 +1,6 @@
 ## Stat 131A Course Logistics and Policies
 
-_I reserve the right to make changes to the syllabus_
+_I reserve the right to make changes to the syllabus and policies._
 
 ![Mrs Mutner Rules](../images/mrs-mutner-rules.jpg)
 
@@ -125,7 +125,7 @@ With the obvious exception of exams, we encourage you to discuss all of the cour
 
 Cooperation has a limit, however. You should not share your code or answers directly with other students. Doing so doesn't help them; it just sets them up for trouble on exams. Feel free to discuss the problems with others beforehand, but not the solutions. Please complete your own work and keep it to yourself. If you suspect other people may be plagiarizing you, let us know ASAP. For more information please read the [Honor Code Guide for Syllabi](http://teaching.berkeley.edu/sites/default/files/general/hc_guide_for_syllabi.pdf).
 
-I (Gaston Sanchez) expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and I encourage you to work together---but copying is not, nor is having somebody else submit assignments for you. __Cheating will not be tolerated__. Anyone found cheating will receive an F and will be reported to the [Center for the Student Conduct](http://sa.berkeley.edu/conduct). If you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please come see me with your questions. 
+We expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and I encourage you to work together---but copying is not, nor is having somebody else submit assignments for you. __Cheating will not be tolerated__. Anyone found cheating will receive an F and will be reported to the [Center for the Student Conduct](http://sa.berkeley.edu/conduct). If you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please come see me with your questions. 
 
 Rather than copying someone else's work, ask for help. You are not alone in this course! The course staff is here to help you succeed. If you invest the time to learn the material and complete the projects, you won't need to copy any answers.
 
@@ -148,7 +148,7 @@ Rather than copying someone else's work, ask for help. You are not alone in this
 
 Students needing accommodations for any physical, psychological, or learning disability, should speak with me during the first two weeks of the semester, either after class or during office hours and see [http://dsp.berkeley.edu](http://dsp.berkeley.edu) to learn about Berkeley’s policy. If you are a DSP student, please contact me at least three weeks prior to a midterm or final so that we can work out acceptable accommodations via the DSP Office.
 
-If you are an athlete or Cal band member, please check your calendar and come see me as soon as possible to OH during the first two weeks of the semester. Do not take the class if you are not available to take the midterm, final, and/or attend lab discussions. I won't be able to provide accommodations for a late exam. Since this is a hands-on programming-based class, I don't allow coaching staff proctoring.
+If you are an athlete or Cal band member, please check your calendar and come see me as soon as possible to OH during the first two weeks of the semester. We recommend not taking the class if you are not available to take the midterm, final, and/or attend lab discussions.
 
 
 
