@@ -179,7 +179,7 @@
 ## 8. More Random Variables: Binomial and Normal Distributions
 
 - :card_index: __Dates__: Oct 15-19
-- :paperclip: __Topics__: We dive deep into two of the most famous distributions: the binomial distribution, and the normal distribution. We also introduce the concepts of expected value and standard deviation/error of tickets randomly sampled from box models.
+- :paperclip: __Topics__: We dive deep into two of the most famous probability distributions: the Binomial distribution, and the Normal distribution. We also introduce the concepts of expected value and standard deviation/error of tickets randomly sampled from box models.
 - :file_folder: __Notes__:
     + Binomial Distribution
     + Normal Distribution (reminder)
@@ -201,7 +201,7 @@
 ## 9. Sampling and Chance Errors (part 1)
 
 - :card_index: __Dates__: Oct 22-26
-- :paperclip: __Topics__: In this part we continue to develop the probability machinery that underlies inference (i.e. drawing conclusions from sample data).
+- :paperclip: __Topics__: A central topic in statistics has to do with Inference: the problem of obtaining information about a population without examining every unit in the population—--only a random sample from the population. Obviously, random samples vary, so we need to understand how much they vary and how they relate to the population.
 - :file_folder: __Notes__:
     + More expected value and standard error
     + Sampling
@@ -220,7 +220,7 @@
 ## 10. Sampling and Chance Errors (part 2)
 
 - :card_index: __Dates__: Oct 29-31, Nov 02
-- :paperclip: __Topics__: A central problem in statistics is to obtain information about a population, a collection of units, without examining every unit in the population—only a sample from the population.
+- :paperclip: __Topics__: Recall that one of the goals of inference is to draw a conclusion about a population on the basis of a random sample from the population. This involves using a probability model that describes the long-run behavior of sample measurements. In this part of the course we continue to develop the probability machinery that underlies inference (i.e. drawing conclusions from sample data). 
 - :file_folder: __Notes__:
     + Sampling distributions
     + Chance errors
@@ -240,7 +240,7 @@
 ## 11. Confidence Intervals
 
 - :card_index: __Dates__: Nov 05-09
-- :paperclip: __Topics__: One of the goals of inference is to draw a conclusion about a population on the basis of a random sample from the population. Obviously, random samples vary, so we need to understand how much they vary and how they relate to the population. Our ultimate goal is to create a probability model that describes the long-run behavior of sample measurements. We use this model to make inferences about the population.
+- :paperclip: __Topics__: In inference, we use a sample to draw a conclusion about a population. Two types of inference are the focus of our work in this course: 1) estimate a population parameter with a confidence interval; 2) test a claim about a population parameter with a hypothesis test. The purpose of a confidence interval is to use a sample statistic (e.g. proportion, mean) to construct an interval of values that we can be reasonably confident contains the population parameter.
 - :file_folder: __Notes__:
     + Confidence Intervals for Proportions
     + Confidence Intervals for Means
@@ -258,7 +258,7 @@
 ## 12. Hypothesis Tests
 
 - :card_index: __Dates__: Nov 12-16 _(Holiday Nov 12)_
-- :paperclip: __Topics__: Now we look more carefully at how to test a claim with a hypothesis test. Statistical investigations begin with research questions. We begin our discussion of hypothesis tests with research questions that require us to test a claim. Later we look at how a claim becomes a hypothesis.
+- :paperclip: __Topics__: Now we look more carefully at the second type of inferential task: testing a claim about a population parameter. We begin our discussion of hypothesis tests with research questions that require us to test a claim. Later we look at how a claim becomes a hypothesis.
 - :file_folder: __Notes__:
     + Introduction to Hypothesis Tests
     + Hypothesis test for one Mean
