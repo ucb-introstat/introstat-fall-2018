@@ -247,9 +247,9 @@
 - :book: __Reading__:
     + [Chapter 26: Confidence Intervals](https://www.stat.berkeley.edu/~stark/SticiGui/Text/confidenceIntervals.htm)
 - :microscope: __Lab__:
-    + TBD (Tu)
-    + TBD (Th)
-- :dart: __HW 11__: TBD (due Nov-dd)
+    + 11a: TBD (Tu; due Nov-07)
+    + 11b: TBD (Th; due Nov-09)
+- :dart: __HW 11__: TBD (due Nov-12)
 
 
 -----
@@ -265,9 +265,9 @@
 - :book: __Reading__:
     + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
 - :microscope: __Lab__:
-    + TBD (Tu)
-    + TBD (Th)
-- :dart: __HW 12__: TBD (due Nov-dd)
+    + 12a: TBD (Tu; due Nov-14)
+    + 12b: TBD (Th; due Nov-16)
+- :dart: __HW 12__: TBD (due Nov-19)
 
 
 -----
@@ -282,7 +282,7 @@
 - :book: __Reading__:
     + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
 - :microscope: __Lab__:
-    + TBD (Tu)
+    + 13a: TBD (Tu; due Nov-21)
 
 
 -----
@@ -297,9 +297,9 @@
 - :book: __Reading__:
     + [Chapter 31: Chi-Squared Test](https://www.stat.berkeley.edu/~stark/SticiGui/Text/chiSquare.htm)
 - :microscope: __Lab__:
-    + TBD (Tu)
-    + TBD (Th)
-- :dart: __HW 13__: TBD (due Nov-dd)
+    + 14a: TBD (Tu; due Nov-28)
+    + 14b: TBD (Th; due Nov-30)
+- :dart: __HW 13__: TBD (due Dec-02)
 
 
 -----
