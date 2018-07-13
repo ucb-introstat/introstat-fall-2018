@@ -1,0 +1,421 @@
+---
+title: "Regression Line in R"
+subtitle: "Stat 131A, Fall 2018, Prof. Sanchez"
+output: pdf_document
+fontsize: 12pt
+urlcolor: blue
+---
+
+> ### Learning Objectives
+>
+> - How to run a regression analysis in R
+> - Getting to know the function `lm()`
+> - How to add the regression line to a scatter diagram
+> - How to "manually" compute the slope and intercept of regression line
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Introduction
+
+To make sure we are all on the same page, I should start with a brief 
+discussion about the term "Regression". 
+This term was coined by Sir Francis Galton and introduced in his 1886 
+paper _Regression Towards Mediocrity in Hereditary Stature_.
+He used the word "regression" to describe a phenomenon that he observed when 
+analyzing height data of parents and their adult children. 
+What he noticed was that exceptionally tall parents had 
+children who were, on average, less tall; and exceptionally short parents had 
+children who were, on average, less short. 
+Because of the connotations of the word "mediocrity", statisticians later 
+modified the regression statement as: _regression towards the mean_. 
+
+For better or for worse, the term regression has evolved and become broader 
+over the years. Nowadays people use the word regression in a more loosely way. 
+The most common terms that you will probably find are "regression analysis" and 
+"regression model" or "regression modeling". 
+
+The core idea behind virtually all regression tools is to predict a 
+(quantitative) response variable in terms of one or more predictor variables.
+In its simplest version, the regression method is used for explaining or 
+modeling the relationship between a single variable $Y$, called the _response_, 
+_outcome_, _output_ or _dependent_ variable; and one _predictor_, _input_, 
+_independent_ or _explanatory_ variable $X$.
+This version is commonly referred to as __simple linear regression__, and it is 
+actually the method presented in the FPP book (chapters 10-12)---although it is 
+not explicitly called like that. 
+The reasons why statisticians call it _simple linear regression_ are:
+
+- "simple" because there is only one $Y$ and one $X$
+- "linear" because the mathematical model is expressed with a line equation
+- "regression" because $X$ is used to predict $Y$
+
+_Note:_ Pretty much the word "regression" has become synonym for prediction. 
+The word "prediction" implying that the response variable is quantitative. 
+If the response variable to be predicted is of categorical nature, then we 
+talk about "classification". The type of regression we will discuss is the one 
+in which both $X$ and $Y$ are  quantitative variables.
+
+
+
+
+## Data
+
+To illustrate the regression ideas, we are going to use a data set collected 
+by English mathematician and biostatistician 
+[Karl Pearson](https://en.wikipedia.org/wiki/Karl_Pearson) (1857-1936). 
+Among other things, Pearson was Galton's protégé, he founded the world's first 
+university statistics department at University College London in 1911, and 
+he is considered one of the founding fathers of modern-day Statistics.
+
+```{r out.width='50%', echo = FALSE, fig.align='center', fig.pos='h', fig.cap="Karl Pearson (source: wikipedia)"}
+knitr::include_graphics('images/karl-pearson.jpg')
+```
+
+The data set is in the csv file `pearson.csv` (in the github repository),
+and it contains the heights of 1078 fathers, and their adult sons.
+
+```{r}
+# assembling the URL of the CSV file
+# (otherwise it won't fit within the margins of this document)
+repo = 'https://raw.githubusercontent.com/ucb-introstat/introstat-spring-2017/'
+datafile = 'master/data/pearson.csv'
+url = paste0(repo, datafile)
+
+# read in data set
+dat = read.csv(url)
+```
+
+If you are having problems importing the data from github, you can try this
+other source:
+
+```{r eval = FALSE}
+# another way to read in the data
+dat = read.csv('http://www.math.uah.edu/stat/data/Pearson.csv')
+```
+
+
+### Univariate Exploration
+
+The data frame `dat` contains `r nrow(dat)` rows, and `r ncol(dat)` columns.
+
+- `Father`: height of the father (in inches)
+- `Son`: height of the son (in inches)
+
+As it is customary, the first thing when analyzing data (one variable at a time),
+is to obtain summary statistics and look at the distributions:
+
+```{r}
+# basic summary statistics
+summary(dat)
+
+# number of rows
+n = nrow(dat)
+
+# SD of Father
+sqrt((n-1)/n) * sd(dat$Father)
+
+# SD of Son
+sqrt((n-1)/n) * sd(dat$Son)
+```
+
+
+### Histograms
+
+For convenience purposes, to plot histograms for the `Father` and `Son` heights, 
+we can define a vector of class intervals or bins for the argument `breaks`
+inside the `hist()` function. Looking at the output of `summary()`, we can 
+take a minimum of 55, and a maximum of 80 to create a vector of `bins` with a 
+numeric sequence like this:
+
+```{r out.width='70%', fig.align='center'}
+bins = seq(from = 55, to = 80, by = 1)
+```
+
+Having defined `bins`, we can then graph the histograms:
+
+```{r out.width='70%', fig.align='center'}
+hist(dat$Father, breaks = bins, las = 1, col = 'gray80')
+```
+
+```{r out.width='70%', fig.align='center'}
+hist(dat$Son, breaks = bins, las = 1, col = 'gray80')
+```
+
+Both histograms have nice symmetric bell-shaped distributions. Keep in mind 
+that these are classic textbook examples of variables that follow the 
+normal curve.
+
+
+
+### Scatter Plot
+
+The next step is to get a picture of the relationship between the `Father` and 
+`Son` heights. The quickest option is to create a scatter diagram with the
+function `plot()`:
+
+```{r out.width='60%', fig.align='center', fig.width=6, fig.height=6}
+plot(dat$Father, dat$Son)
+```
+
+To obtain a better visual display, you can modify the point character `pch` 
+value, and add a color with some transparency using hexadecimal notation:
+
+```{r out.width='60%', fig.align='center', fig.width=6, fig.height=6}
+plot(dat$Father, dat$Son, pch = 19, col = '#7396D655')
+```
+
+If you want to get a scatter diagram like the one displayed in the textbook 
+(see page 120), then run the following lines of code:
+
+```{r out.width='60%', fig.align='center', fig.width=6, fig.height=6}
+plot.new()
+plot.window(xlim = c(58, 80), ylim = c(58, 80))
+points(dat$Father, dat$Son, pch = 20, cex = 0.5)
+axis(side = 1, pos = 58, at = seq(58, 80, 2))
+axis(side = 2, las = 1, pos = 58, at = seq(58, 80, 2))
+```
+
+The way in which this plot is constructed is a bit special. This approach to 
+create graphs in R uses only low-level functions that give you total 
+control of the appearance of graphical elements:
+
+- `plot.new()` starts a new plot frame
+- `plot.window()` is used to set up the coordinates of the axes
+- `points()` is used to actually plot the dots
+- `axis()` is used to plot both the x-axis and the y-axis.
+
+The most important thing to pay attention to when inspecting the scatter 
+diagram is to check whether the cloud of points follows a linear pattern. 
+When this is the case, it makes sense to use of a line to summarize the 
+relationship between the analyzed variables.
+
+
+
+## Regression Method
+
+The goal is to find a line that fits the data well. In other words, we want to 
+find a line that is as close as possible to all the data points. 
+The typical algebraic equation of a line is $y = mx + b$, where $m$ represents 
+the slope, and $b$ represents the intercept. However, when working within a 
+regression framework, we use a slightly different notation for the equation of
+a line. The most standard notation is:
+
+$$
+Y = \beta_0 + \beta_1 X + \epsilon
+$$
+
+where $\beta_0$ and $\beta_1$ are two unknown constants that represent the 
+intercept and the slope of a line, respectively. In turn, $\epsilon$ is the 
+error term that accounts for the spread in the cloud of points that is not 
+captured by the model. Together, $\beta_0$ and $\beta_1$ are known as the model 
+_coefficients_ or _parameters_. 
+
+Often, you will find an alternative represention of the model as:
+
+$$
+Y \approx \beta_0 + \beta_1 X
+$$
+
+you migth read "$\approx$" as _"is approximately modeled as."_ This is a very 
+important detail: we are assuming that there is approximately a 
+linear relationship between $X$ and $Y$.
+
+We will sometimes describe the equation $Y \approx \beta_0 + \beta_1 X$  by 
+saying that we are _regressing Y on X_ (or _Y onto X_). 
+
+In our working example, $X$ represents the height of parents, `Father`, and 
+$Y$ represents height of sons, `Son`. Then we can regress `Son` onto `Father` 
+by fitting the model:
+
+$$
+\mathtt{Son} \approx \beta_0 + \beta_1 \mathtt{Father}
+$$
+
+Once we have used the data to produce estimates $b_0$ and $b_1$ for the model 
+coefficients, we can predict the heights of sons based on a particular value 
+of a father's height by computing:
+
+$$
+\hat{y} = b_0 + b_1 x
+$$
+
+Here we use a _hat_ symbol (i.e. the caret), `^`, to denote the predicted value. 
+That is, $\hat{y}$ indicates a prediction of $Y$ on the basis of $X = x$. 
+
+
+## Estimating the Coefficients with `lm()`
+
+In practice, $\beta_0$ and $\beta_1$ are unknown. To find estimates $b_0$ and $b_1$, we must use the data in $X$ and $Y$. In other words, we want to find an 
+intercept $b_0$ and a slope $b_1$ such that the resulting line is as close as 
+possible to all the data points. There are a number of ways of measuring 
+_closeness_. However, by far the most common approach involves minimizing the 
+_least squares_ criterion. 
+
+In R, the function that allows us to find the intercept $b_0$ and the slope 
+$b_1$ is `lm()` (i.e. linear model). I should say that this function is a 
+general function that works for various types of linear models, not just 
+simple linear regressions.
+
+Because the data is already in a data frame, you can use `lm()` as follows:
+
+```{r}
+# run regression analysis
+reg = lm(Son ~ Father, data = dat)
+```
+
+The first argument of `lm()` consists of an R formula: `Son ~ Father`. The 
+tilde, `~`, is used to indicate that `Son` _depends_ or is _described_ by 
+`Father`. The second argument, `data = `, is used to indicate the name of the 
+data frame that contains the variables `Son` and `Father`, which in this case 
+is the object `dat`. 
+
+In this example we are storing the output of `lm()` in the object `reg`. 
+Technically, `reg` is an object of class `"lm"`. Let's take a look at `reg`:
+
+```{r}
+# default output
+reg
+```
+
+The first part of the output simply tells you the command used to run the 
+analysis, in this case: `lm(formula = Son ~ Father, data = dat)`.
+
+The second part of the output shows information about the regression 
+coefficients. The intercept is `r round(reg$coefficients[1], 3)` and the 
+slope is `r round(reg$coefficients[2], 3)`. Observe the names used by R 
+to display the intercept $b_0$, and the slope $b_1$. While the intercept 
+has the same name `(Intercept)`, the slope is displayed with the name of the 
+associated variable, `Father`.
+
+The printed output of `reg` is kind of minimalist. However, 
+`reg` contains more information. To see a list of the different components in 
+`reg`, use the function `names()`:
+
+```{r}
+names(reg)
+```
+
+As you can tell, `reg` contains many more things than just the `coefficients`.
+Here's a short description of each of the output elements:
+
+- `coefficients`: a named vector of coefficients.
+- `residuals`: the residuals, that is, response minus fitted values.
+- `fitted.values`: the fitted mean values.
+- `rank`: the numeric rank of the fitted linear model.
+- `df.residual`: the residual degrees of freedom.
+- `call`:	the matched call.
+- `terms`: the terms object used.
+- `model`: if requested (the default), the model frame used.
+
+To inspect what's in each component, type the name of the regression object, 
+`reg`, followed by the `$` dollar operator, followed by the name of the 
+component. For example, to inspect the `coefficients` run this:
+
+```{r}
+# regression coefficients
+reg$coefficients
+```
+
+```{r echo = FALSE, eval = FALSE}
+# observed values
+head(dat$Son, n = 5)
+
+# predicted values
+head(reg$fitted.values, n = 5)
+```
+
+For the purposes and scope of this course, the important output of an `"lm"` 
+object are the elements `coefficients`, `residuals`, and `fitted.values`.
+
+
+## Plotting the Regression Line
+
+Having obtained the `"lm"` object `reg`, we can use it to get a scatterplot with the regression line on it. The simplest way to achieve this visualization is to first create a scatter diagram with `plot()`, and then add the regression line with the function `abline()`; here's the code in R:
+
+```{r out.width='60%', fig.align='center', fig.width=6, fig.height=6}
+# scatterplot with regression line
+plot(dat$Father, dat$Son)
+abline(reg, lwd = 2)
+```
+
+The function `abline()` allows you to add lines to a `plto()`. The good news is that it recognizes objects of class `"lm"`, and when invoked after a `plot()` is created, it will add the regression line. Again, to get a nicer plot, you can do something like this:
+
+```{r out.width='60%', fig.align='center', fig.width=6, fig.height=6}
+# scatterplot with regression line
+plot.new()
+plot.window(xlim = c(58, 80), ylim = c(58, 80))
+points(dat$Father, dat$Son, pch = 20, cex = 0.5)
+abline(reg, col = "tomato", lwd = 2)   # regression line
+axis(side = 1, pos = 58, at = seq(58, 80, 2))
+axis(side = 2, las = 1, pos = 58, at = seq(58, 80, 2))
+```
+
+
+## Computing Intercept and Slope
+
+The function `lm()` does pretty much all the job for you. But you can still sue R to "manually" calculate the slope and the intercept of the regression line. In chapter 10 of FPP, the formula of the slope for the regression line is presented as:
+
+$$
+slope = r \times \frac{SD_y}{SD_x}
+$$
+
+In turn, Chapter 12 presents the formula of the intercept as:
+
+$$
+intercept = avg_y - slope \times avg_x
+$$
+
+Using the more standard notation $b_0$ (intercept) and $b_1$ (slope), we have that:
+
+$$
+b_1 = r \frac{SD_y}{SD_x}
+$$
+
+and
+
+$$
+b_0 = avg_y - b_1 \times avg_x 
+$$
+
+You can compare the coefficients given by `lm()` with your own calculated 
+$b_1$ and $b_0$ according to the previous formulas. First let's get the main 
+ingredients:
+
+```{r}
+# number of values (to be used for correcting SD+)
+n = nrow(dat)
+
+# averages
+avg_x = mean(dat$Father)
+avg_y = mean(dat$Son)
+
+# SD (corrected SD+)
+sd_x = sqrt((n-1)/n) * sd(dat$Father)
+sd_y = sqrt((n-1)/n) * sd(dat$Son)
+
+# correlation coefficient
+r = cor(dat$Father, dat$Son)
+```
+
+Now let's compute the slope and intercept, and compare them with 
+`reg$coefficients`
+
+```{r}
+# slope
+b1 = r * (sd_y / sd_x)
+b1
+
+# intercept
+b0 = avg_y - (b1 * avg_x)
+b0
+
+# compared with coeffs
+reg$coefficients
+```
+
+As expected, the output of `lm()` matches the calculated intercept and slope.
+
