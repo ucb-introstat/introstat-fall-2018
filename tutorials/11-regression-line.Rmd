@@ -9,9 +9,8 @@ urlcolor: blue
 > ### Learning Objectives
 >
 > - How to run a regression analysis in R
-> - Getting to know the function `lm()`
-> - How to add the regression line to a scatter diagram
 > - How to "manually" compute the slope and intercept of regression line
+> - How to add the regression line to a scatter diagram
 
 
 ```{r setup, include=FALSE}
@@ -247,7 +246,7 @@ Here we use a _hat_ symbol (i.e. the caret), `^`, to denote the predicted value.
 That is, $\hat{y}$ indicates a prediction of $Y$ on the basis of $X = x$. 
 
 
-## Estimating the Coefficients with `lm()`
+## Estimating the Coefficients
 
 In practice, $\beta_0$ and $\beta_1$ are unknown. To find estimates $b_0$ and $b_1$, we must use the data in $X$ and $Y$. In other words, we want to find an 
 intercept $b_0$ and a slope $b_1$ such that the resulting line is as close as 
@@ -255,115 +254,14 @@ possible to all the data points. There are a number of ways of measuring
 _closeness_. However, by far the most common approach involves minimizing the 
 _least squares_ criterion. 
 
-In R, the function that allows us to find the intercept $b_0$ and the slope 
-$b_1$ is `lm()` (i.e. linear model). I should say that this function is a 
-general function that works for various types of linear models, not just 
-simple linear regressions.
 
-Because the data is already in a data frame, you can use `lm()` as follows:
-
-```{r}
-# run regression analysis
-reg = lm(Son ~ Father, data = dat)
-```
-
-The first argument of `lm()` consists of an R formula: `Son ~ Father`. The 
-tilde, `~`, is used to indicate that `Son` _depends_ or is _described_ by 
-`Father`. The second argument, `data = `, is used to indicate the name of the 
-data frame that contains the variables `Son` and `Father`, which in this case 
-is the object `dat`. 
-
-In this example we are storing the output of `lm()` in the object `reg`. 
-Technically, `reg` is an object of class `"lm"`. Let's take a look at `reg`:
-
-```{r}
-# default output
-reg
-```
-
-The first part of the output simply tells you the command used to run the 
-analysis, in this case: `lm(formula = Son ~ Father, data = dat)`.
-
-The second part of the output shows information about the regression 
-coefficients. The intercept is `r round(reg$coefficients[1], 3)` and the 
-slope is `r round(reg$coefficients[2], 3)`. Observe the names used by R 
-to display the intercept $b_0$, and the slope $b_1$. While the intercept 
-has the same name `(Intercept)`, the slope is displayed with the name of the 
-associated variable, `Father`.
-
-The printed output of `reg` is kind of minimalist. However, 
-`reg` contains more information. To see a list of the different components in 
-`reg`, use the function `names()`:
-
-```{r}
-names(reg)
-```
-
-As you can tell, `reg` contains many more things than just the `coefficients`.
-Here's a short description of each of the output elements:
-
-- `coefficients`: a named vector of coefficients.
-- `residuals`: the residuals, that is, response minus fitted values.
-- `fitted.values`: the fitted mean values.
-- `rank`: the numeric rank of the fitted linear model.
-- `df.residual`: the residual degrees of freedom.
-- `call`:	the matched call.
-- `terms`: the terms object used.
-- `model`: if requested (the default), the model frame used.
-
-To inspect what's in each component, type the name of the regression object, 
-`reg`, followed by the `$` dollar operator, followed by the name of the 
-component. For example, to inspect the `coefficients` run this:
-
-```{r}
-# regression coefficients
-reg$coefficients
-```
-
-```{r echo = FALSE, eval = FALSE}
-# observed values
-head(dat$Son, n = 5)
-
-# predicted values
-head(reg$fitted.values, n = 5)
-```
-
-For the purposes and scope of this course, the important output of an `"lm"` 
-object are the elements `coefficients`, `residuals`, and `fitted.values`.
-
-
-## Plotting the Regression Line
-
-Having obtained the `"lm"` object `reg`, we can use it to get a scatterplot with the regression line on it. The simplest way to achieve this visualization is to first create a scatter diagram with `plot()`, and then add the regression line with the function `abline()`; here's the code in R:
-
-```{r out.width='60%', fig.align='center', fig.width=6, fig.height=6}
-# scatterplot with regression line
-plot(dat$Father, dat$Son)
-abline(reg, lwd = 2)
-```
-
-The function `abline()` allows you to add lines to a `plto()`. The good news is that it recognizes objects of class `"lm"`, and when invoked after a `plot()` is created, it will add the regression line. Again, to get a nicer plot, you can do something like this:
-
-```{r out.width='60%', fig.align='center', fig.width=6, fig.height=6}
-# scatterplot with regression line
-plot.new()
-plot.window(xlim = c(58, 80), ylim = c(58, 80))
-points(dat$Father, dat$Son, pch = 20, cex = 0.5)
-abline(reg, col = "tomato", lwd = 2)   # regression line
-axis(side = 1, pos = 58, at = seq(58, 80, 2))
-axis(side = 2, las = 1, pos = 58, at = seq(58, 80, 2))
-```
-
-
-## Computing Intercept and Slope
-
-The function `lm()` does pretty much all the job for you. But you can still sue R to "manually" calculate the slope and the intercept of the regression line. In chapter 10 of FPP, the formula of the slope for the regression line is presented as:
+Using the formulas of the regression method, the slope for the regression line is given by:
 
 $$
 slope = r \times \frac{SD_y}{SD_x}
 $$
 
-In turn, Chapter 12 presents the formula of the intercept as:
+In turn, the formula of the intercept is:
 
 $$
 intercept = avg_y - slope \times avg_x
@@ -381,9 +279,8 @@ $$
 b_0 = avg_y - b_1 \times avg_x 
 $$
 
-You can compare the coefficients given by `lm()` with your own calculated 
-$b_1$ and $b_0$ according to the previous formulas. First let's get the main 
-ingredients:
+
+First let's get the main ingredients:
 
 ```{r}
 # number of values (to be used for correcting SD+)
@@ -412,10 +309,43 @@ b1
 # intercept
 b0 = avg_y - (b1 * avg_x)
 b0
-
-# compared with coeffs
-reg$coefficients
 ```
 
-As expected, the output of `lm()` matches the calculated intercept and slope.
+
+
+## Plotting the Regression Line
+
+Having obtained the slope and the intercept estimates, we can use them to get a scatterplot with the regression line on it. The simplest way to achieve this visualization is to first create a scatter diagram with `plot()`, and then add the regression line with the function `abline()`; here's the code in R:
+
+```{r out.width='50%', fig.align='center', fig.width=6, fig.height=6}
+# scatterplot with regression line (option 1)
+plot(dat$Father, dat$Son)
+abline(a = b0, b = b1, lwd = 2)
+```
+
+\bigskip
+
+Similarly, you can use the argument `coef` to pass a vector with the intercept and slope values:
+
+```{r out.width='50%', fig.align='center', fig.width=6, fig.height=6}
+# scatterplot with regression line (option 2)
+plot(dat$Father, dat$Son)
+abline(coef = c(b0, b1), lwd = 2)
+```
+
+\bigskip
+
+The function `abline()` allows you to add lines to a `plot()`. The good news is that it recognizes objects of class `"lm"`, and when invoked after a `plot()` is created, it will add the regression line. Again, to get a nicer plot, you can do something like this:
+
+```{r out.width='60%', fig.align='center', fig.width=6, fig.height=6}
+# scatterplot with regression line
+plot.new()
+plot.window(xlim = c(58, 80), ylim = c(58, 80))
+points(dat$Father, dat$Son, pch = 20, cex = 0.5)
+abline(coef = c(b0, b1), col = "tomato", lwd = 2)   # regression line
+axis(side = 1, pos = 58, at = seq(58, 80, 2))
+axis(side = 2, las = 1, pos = 58, at = seq(58, 80, 2))
+```
+
+\bigskip
 
