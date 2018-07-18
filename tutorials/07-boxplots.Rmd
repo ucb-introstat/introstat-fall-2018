@@ -1,0 +1,127 @@
+---
+title: "Boxplots"
+subtitle: "Stat 131A, Fall 2018, Prof. Sanchez"
+output: pdf_document
+fontsize: 12pt
+urlcolor: blue
+---
+
+> ### Learning Objectives
+>
+> - Learn how to read boxplots
+> - Learn about the `boxplot()` function
+> - How to graph boxplots with `ggplot2`
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+## Introduction
+
+Quantitative variables can be summarized using two groups of measures:
+1) center, and 2) spread. Just like there are various measures of center 
+(e.g. average, median, mode), we also have several measures of spread or 
+variability:
+
+- range
+- interquartile range
+- standard deviation (and variance)
+
+
+In this tutorial we'll use the data set `mtcars` that comes in R.
+
+```{r}
+head(mtcars)
+```
+
+Let's analyze the variable `mpg` miles per gallon.
+
+The function `summary()` produces basic summary statistics: the five-number summary, plus the mean:
+
+```{r}
+summary(mtcars$mpg)
+```
+
+
+A boxplot, or more formally box-and-whisker plot, is based on the five-number summary: minimum, 1st quartile, median, 3rd quartile, and maximum.
+
+R has the built-in function `boxplot()` that allows you to make boxplots. You just need to pass it a vector, and R will graph a boxplot vertically oriented:
+
+```{r default-boxplot, fig.align='center'}
+boxplot(mtcars$mpg)
+```
+
+You can set the argument `horizontal = TRUE` to get a boxplot horizontally oriented:
+
+```{r horizontal, fig.align='center'}
+boxplot(mtcars$mpg, horizontal = TRUE)
+```
+
+\bigskip
+
+In fact, you can actually store the output of `boxplot()`, for example:
+
+```{r boxplotobj, results='hide', fig.keep='none'}
+bb = boxplot(mtcars$mpg)
+```
+
+The object `bb` is an object of class `"boxplot"` which contains various elements:
+
+```{r}
+bb
+```
+
+The first element `stats` contains the five-number summary:
+
+```{r}
+# five number summary
+bb$stats
+```
+
+```{r}
+# compare to summary()
+summary(mtcars$mpg)
+```
+
+
+### Fences
+
+The function `boxplot()` has an argument `range`. This argument determines how far the plot whiskers extend out from the box. By default `range = 1.5`, this means that the whiskers extend to the most extreme data point which is no more than 1.5 times the interquartile range from the box. 
+
+```{r boxplot-hp1, fig.align='center', out.width='75%'}
+# default boxplot 
+# (whiskers may not extend to the most extreme data points)
+boxplot(mtcars$hp, horizontal = TRUE)
+```
+
+\bigskip
+
+A value of zero (e.g. `range = 0`) causes the whiskers to extend to the data extremes.
+
+```{r boxplot-hp2, fig.align='center', out.width='75%'}
+# boxplot with unmodified whiskers
+# (whiskers extend to the most extreme data points)
+boxplot(mtcars$hp, horizontal = TRUE, range = 0)
+```
+
+
+### Formulas with `boxplot()`
+
+An interesting feature of `boxplot()` is that you can pass R formulas. For example
+the variable (column) `am` refers to the automatic transmission. This variable takes two values: 0 if a car is automatic, 1 if the transmission is manual (stick).
+
+```{r mpg-am, fig.align='center', out.width='75%'}
+# boxplots of mpg by transmission
+boxplot(mpg ~ am, data = mtcars, horizontal = TRUE, las = 1)
+```
+
+\bigskip
+
+A similar boxpot can be produced for the number of cylinders `cyl`
+
+```{r mpg-ycl, fig.align='center', out.width='75%'}
+# boxplots of mpg by cylinders
+boxplot(mpg ~ cyl, data = mtcars, horizontal = TRUE, las = 1)
+```
