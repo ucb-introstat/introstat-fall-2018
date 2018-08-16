@@ -13,9 +13,9 @@
 ## 0. Course Introduction, Data and Variables
 
 - :card_index: __Dates__: Aug 22-24
-- :paperclip: __Topics__: Understand the concept of "data" for statistical analysis, the concept of variables, and the difference between qualitative and quantitative variables. Also, learn how to summarize information with frequency tables, and visual displays with bar-charts.
+- :paperclip: __Topics__: Understanding the concept of "data" for statistical analysis, the concept of variables, and the difference between qualitative and quantitative variables. Also, we'll discuss how to summarize information with frequency tables, and visual displays with bar-charts.
 - :file_folder: __Notes__:
-    + [Welcome to Stat 131A](../slides/00-about-course.pdf)
+    + Welcome to Stat 131A (chalk and talk)
     + [What is data?](../slides/istat-lec01-data-variables.pdf)
     + [Frequency tables and barcharts](../slides/istat-lec02-barcharts.pdf)
 - :book: __Reading__:
@@ -33,7 +33,7 @@
 ## 1. Summarizing Data Graphically and Numerically (part 1)
 
 - :card_index: __Dates__: Aug 27-31
-- :paperclip: __Topics__: Understand histograms, how to read them, how to graph them, and what makes them different from bar-charts. Likewise, learn about measures of center, their meanings, properties, and how to use them in practice. In addition, we discuss other summaries for describing distributions.
+- :paperclip: __Topics__: Understanding histograms, how to read them, how to graph them, and what makes them different from bar-charts. Likewise, we'll talk about measures of center, their meanings, properties, and how to use them in practice. In addition, we'll discuss other summaries for describing distributions.
 - :file_folder: __Notes__:
     + [Histograms, skeweness, and distributions](../slides/istat-lec03-histograms.pdf)
     + Histograms (demo)
@@ -142,8 +142,8 @@
 - :paperclip: __Topics__: Statistics can be used for making decisions when we are faced with uncertainties. To do so, you need to learn some of the basic tools provided by Probability, the branch of Math that studies randomness. This part of the course gives you a general introduction to probability.
 - :file_folder: __Notes__:
     + Probability: what is it? 
-    + Probability concepts (part 1)
-    + Probability concepts (part 2)
+    + [Probability concepts (part 1)](../slides/istat-lec15-probability1.pdf)
+    + [Probability concepts (part 2)](../slides/istat-lec16-probability2.pdf)
 - :book: __Reading__:
     + [Chapter 13: The Meaning of Probability](https://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityPhilosophy.htm)
     + [Chapter 17: Probability, Axioms and Fundamentals](https://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityAxioms.htm)
@@ -160,10 +160,10 @@
 ## 7. Two-Way tables, Box Models and Random Variables (part 1)
 
 - :card_index: __Dates__: Oct 08-12
-- :paperclip: __Topics__: We turn our attention to categorical variables. The objective is to study the relationship between two categorical variables while linking the concept of probability to relative frequencies. We also use introduce the notion of Random Variables, and Box Models.
+- :paperclip: __Topics__: We turn our attention to categorical variables. The objective is to study the relationship between two categorical variables while linking the concept of probability to relative frequencies. This is done via Two-way tables and its associated frequencies (e.g. marginal, conditional, and joint frequencies). We also use introduce the notion of Random Variables, and Box Models.
 - :file_folder: __Notes__:
-    + Two-way tables: marginal, conditional, and joint frequencies
-    + Introduction to Random Variables and box models
+    + [Two-way tables](../slides/istat-lec17-two-way-tables.pdf)
+    + [Intro to Random Variables and box models](../slides/istat-lec18-random-variables.pdf)
 - :book: __Reading__:
     + [Chapter 19: Probability Meets Data](https://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHallTest.htm) (Binomial Distribution)
     + [Chapter 20: Random Variables and Discrete Distributions](https://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm) 
