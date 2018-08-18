@@ -27,7 +27,7 @@ Please take some time to carefully read all the course policies. They should let
 
 ### Class Participation
 
-- Lecture is meant to discuss concepts and fundamentals statistical reasoning.
+- Lecture is meant to discuss concepts and fundamentals of statistical reasoning.
 - Attending lecture is part of your grade.
 - We will track attendance with short questions asked during lecture.
 - To receive full credit, you need to be present and answer at least 80% of 
