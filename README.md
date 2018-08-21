@@ -13,21 +13,21 @@ __Statistics 131A: Introduction to Probability and Statistics for Life Scientist
 - __Piazza:__ [piazza.com/berkeley/fall2018/stat131a](https://piazza.com/berkeley/fall2018/stat131a)
 - __Office Hours:__ You can go to the office hours of __any__ staff member.
 
-| Name           | Room      | Day/Time            |
-|:---------------|:----------|:--------------------|
-| Gaston Sanchez | 309 Evans |   TBD               |
-| TBA            | 342 Evans |   TBD               |
-| TBA            | 342 Evans |   TBD               |
+| Name             | Room      | Day/Time            |
+|:-----------------|:----------|:--------------------|
+| Gaston Sanchez   | 309 Evans |   TBD               |
+| Kevin Chen       | TBD Evans |   TBD               |
+| TBA | TBD Evans |   TBD               |
 
 
 - __Lab Sections:__
 
-| Lab | Date        | Room         | GSI             |
-|-----|-------------|--------------|-----------------|
-| 101 | TuTh 1-2pm  | 344 Evans    | TBA             |
-| 102 | TuTh 2-3pm  | 344 Evans    | TBA             |
-| 103 | TuTh 3-4pm  | 344 Evans    | TBA             |
-| 104 | TuTh 4-5pm  | 344 Evans    | TBA             |
+| Lab | Date        | Room         | GSI              |
+|-----|-------------|--------------|------------------|
+| 101 | TuTh 1-2pm  | 344 Evans    | TBA |
+| 102 | TuTh 2-3pm  | 344 Evans    | Kevin Chen       |
+| 103 | TuTh 3-4pm  | 344 Evans    | Kevin Chen       |
+| 104 | TuTh 4-5pm  | 344 Evans    | TBA |
 
 
 -----
