@@ -27,6 +27,6 @@ The data set is in the `nba_players.csv` file (see `data/` folder) which contain
 library(shiny)
 
 # Easiest way is to use runGitHub
-runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "apps/ch03-histograms")
+runGitHub("introstat-fall-2018", "ucb-introstat", subdir = "01-histograms")
 ```
 
