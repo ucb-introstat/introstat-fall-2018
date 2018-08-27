@@ -12,7 +12,7 @@ install.packages("shiny")
 ```
 
 
-For instance, to run the app contained in the [01-histograms](/01-histograms) folder, run the following code in R:
+For instance, to run the app contained in the [01-histograms](01-histograms) folder, run the following code in R:
 
 ```R
 library(shiny)
