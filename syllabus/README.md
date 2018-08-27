@@ -47,7 +47,7 @@
     + [1a: Getting started with R and RStudio](../labs/lab01a-R-basics.md) (Tu; due Aug-29)
     + [1b: Histograms](../labs/lab01b-histograms-questions.pdf) (Th; due Aug-31)
 - :bulb: __Cheatsheet__: [RStudio cheat sheet](../cheatsheets/rstudio-cheatsheet.pdf) and [R markdown cheat sheet](../cheatsheets/rmarkdown-cheatsheet.pdf)
-- :dart: __HW 01__: Markdown (due Sep-03)
+- :dart: __HW 01__: [Markdown](../hws/hw01-markdown.pdf) (due Sep-03)
 
 
 -----
