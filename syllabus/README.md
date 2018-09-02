@@ -56,7 +56,7 @@
 ## 2. Summarizing Data Graphically and Numerically (part 2)
 
 - :card_index: __Dates__: Sep 03-07 _(Holiday Sep-03)_
-- :paperclip: __Topics__: Learning about measures of spread, their meanings, properties, rationales, and how to use them in practice. Also, first contact with the normal curve, and its approximation for symmetric bell-shaped distributions.
+- :paperclip: __Topics__: Having looked at measures of center, we now turn our attention to  measures of spread, their rationales, meanings, and properties. Also, we'll get a first contact with the normal curve, and its approximation for symmetric bell-shaped distributions.
 - :file_folder: __Notes__:
     + [Measures of spread: Standard Deviation](../slides/istat-lec07-spread-sd.pdf)
     + [Normal Curve](../slides/istat-lec08-normal-curve.pdf)
@@ -77,13 +77,14 @@
 ## 3. Scatterplots and Correlation
 
 - :card_index: __Dates__: Sep 10-14
-- :paperclip: __Topics__: Tools for studying relationships between two quantitative variables: scatter plots, correlation coefficient, regression analysis.
+- :paperclip: __Topics__: Describing one variable at a time can be too limiting. However, we can enrich our analysis by studying whether two (quantitative) variables tend to be associated. Like in the univariate case, this can be done with pictures and numeric summaries: e.g. scatter plots and correlation coefficient.
 - :file_folder: __Notes__:
     + [Scatter diagrams and correlation](../slides/istat-lec09-scatterplots-correlation.pdf)
     + [More about correlation](../slides/istat-lec10-more-about-correlation.pdf)
     + corr-coeff-diagrams (demo)
 - :book: __Reading__:
     + [Chapter 5: Scatterplots](https://www.stat.berkeley.edu/~stark/SticiGui/Text/scatterplots.htm)
+    + [Chapter 6: Association](https://www.stat.berkeley.edu/~stark/SticiGui/Text/association.htm)
     + [Chapter 7: Correlation](https://www.stat.berkeley.edu/~stark/SticiGui/Text/correlation.htm)
     + [Chapter 8: Computing the correlation coefficient](https://www.stat.berkeley.edu/~stark/SticiGui/Text/computeR.htm)
 - :microscope: __Lab__:
@@ -99,11 +100,10 @@
 ## 4. Regression (part 1)
 
 - :card_index: __Dates__: Sep 17-21
-- :paperclip: __Topics__: Regression Analysis
+- :paperclip: __Topics__: When the association between two variables meets certain requirements (e.g. linear association, homoscedasticity, football-shaped scatterplot) such a relationship can be further summarized with the so called _Regression Line_. Consequently, we'll spend time studying the basics of regression, the most (mis)used tool in statistics.
 - :file_folder: __Notes__:
     + [Intro to Regression](../slides/istat-lec11-regression-intro.pdf)
     + [Regression Line](../slides/istat-lec12-regression-line.pdf)
-    + RMS Error for Regression
     + heights-data (demo)
 - :book: __Reading__:
     + [Chapter 9: Regression](https://www.stat.berkeley.edu/~stark/SticiGui/Text/regression.htm)
@@ -120,7 +120,7 @@
 ## 5. Regression (part 2)
 
 - :card_index: __Dates__: Sep 24-28
-- :paperclip: __Topics__: Regression Analysis
+- :paperclip: __Topics__: We'll continue the discussion of Regression, looking at diagnostics tools, RMSm of residuals, the regression effect, and the famous regression fallacy.
 - :file_folder: __Notes__:
     + regression-residuals (demo)
     + regression-strips (demo)
