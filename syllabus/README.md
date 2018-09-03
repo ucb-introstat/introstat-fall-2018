@@ -68,7 +68,7 @@
     + 2a: Centers and boxplots (Tu; due Sep-05)
     + 2b: Boxplots and spreads (Th; due Sep-07)
 - :bulb: __Cheatsheet__: [Base R](../cheatsheets/base-r-cheatsheet.pdf)
-- :dart: __HW 02__: Distributions (due Sep-10)
+- :dart: __HW 02__: [Distributions](../hws/hw02-questions.pdf) (due Sep-10)
 
 
 -----
@@ -120,7 +120,7 @@
 ## 5. Regression (part 2)
 
 - :card_index: __Dates__: Sep 24-28
-- :paperclip: __Topics__: We'll continue the discussion of Regression, looking at diagnostics tools, RMSm of residuals, the regression effect, and the famous regression fallacy.
+- :paperclip: __Topics__: We'll continue the discussion of Regression, looking at diagnostics tools, RMS of residuals, the regression effect, and the famous regression fallacy.
 - :file_folder: __Notes__:
     + regression-residuals (demo)
     + regression-strips (demo)
