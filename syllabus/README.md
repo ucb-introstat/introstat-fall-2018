@@ -66,7 +66,7 @@
     + [Chapter 23: Normal Curve](https://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm)
 - :microscope: __Lab__:
     + [2a: Centers](../labs/lab02a-centers-questions.pdf) (Tu; due Sep-05)
-    + 2b: Boxplots and spreads (Th; due Sep-07)
+    + [2b: Boxplots and spreads](../labs/lab02b-boxplots-spreads-questions.pdf) (Th; due Sep-07)
 - :bulb: __Cheatsheet__: [Base R](../cheatsheets/base-r-cheatsheet.pdf)
 - :dart: __HW 02__: [Distributions](../hws/hw02-questions.pdf) (due Sep-10)
 
