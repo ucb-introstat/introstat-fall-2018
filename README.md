@@ -17,17 +17,17 @@ __Statistics 131A: Introduction to Probability and Statistics for Life Scientist
 |:-----------------|:----------|:--------------------|
 | Gaston Sanchez   | 309 Evans | MW 3pm-3:45pm       |
 | Kevin Chen       | TBD Evans |   TBD               |
-| TBA | TBD Evans |   TBD               |
+| Faraz            | 428 Evans | F  9am-1pm          |
 
 
 - __Lab Sections:__
 
 | Lab | Date        | Room         | GSI              |
 |-----|-------------|--------------|------------------|
-| 101 | TuTh 1-2pm  | 344 Evans    | TBA |
-| 102 | TuTh 2-3pm  | 344 Evans    | Kevin Chen       |
+| 101 | TuTh 1-2pm  | 344 Evans    | Faraz            |
+| 102 | TuTh 2-3pm  | 344 Evans    | Faraz            |
 | 103 | TuTh 3-4pm  | 344 Evans    | Kevin Chen       |
-| 104 | TuTh 4-5pm  | 344 Evans    | TBA |
+| 104 | TuTh 4-5pm  | 344 Evans    | Kevin            |
 
 
 -----
