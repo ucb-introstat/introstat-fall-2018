@@ -1,6 +1,6 @@
 ## Stat 131A - Fall 2018
 
-This repository holds the course materials for the Fall 2018 edition of 
+This repository holds the course materials for the Fall 2018 edition of
 __Statistics 131A: Introduction to Probability and Statistics for Life Scientists__ at UC Berkeley.
 
 
@@ -16,7 +16,7 @@ __Statistics 131A: Introduction to Probability and Statistics for Life Scientist
 | Name             | Room      | Day/Time            |
 |:-----------------|:----------|:--------------------|
 | Gaston Sanchez   | 309 Evans | MW 3pm-3:45pm       |
-| Kevin Chen       | TBD Evans |   TBD               |
+| Kevin Chen       | 426 Evans | M  12-2pm, 3-5pm    |
 | Faraz            | 428 Evans | F  9am-1pm          |
 
 
@@ -26,7 +26,7 @@ __Statistics 131A: Introduction to Probability and Statistics for Life Scientist
 |-----|-------------|--------------|------------------|
 | 101 | TuTh 1-2pm  | 344 Evans    | Faraz            |
 | 102 | TuTh 2-3pm  | 344 Evans    | Faraz            |
-| 103 | TuTh 3-4pm  | 344 Evans    | Kevin Chen       |
+| 103 | TuTh 3-4pm  | 344 Evans    | Kevin            |
 | 104 | TuTh 4-5pm  | 344 Evans    | Kevin            |
 
 
@@ -44,7 +44,7 @@ You should expect to spend about 7 hours of outside work hours per week, 2 hours
 
 ### Methods of Instruction
 
-We will be using a combination of materials such as slides, tutorials, 
+We will be using a combination of materials such as slides, tutorials,
 reading assignments, and chalk-and-talk.
 
 I firmly believe that one cannot do statistical computations without the help of good statistical software. In this course, you will be asked to do various assignments and practical work using the [statistical software R](https://www.r-project.org/) with the help of the Integrated Development Environment (IDE) [RStudio](https://www.rstudio.com/).
