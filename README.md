@@ -16,7 +16,7 @@ __Statistics 131A: Introduction to Probability and Statistics for Life Scientist
 | Name             | Room      | Day/Time            |
 |:-----------------|:----------|:--------------------|
 | Gaston Sanchez   | 309 Evans | MW 3pm-3:45pm       |
-| Kevin Chen       | 426 Evans | M  12pm-4pm         |
+| Kevin Chen       | 426 Evans | M  12-2pm, 3-5pm    |
 | Faraz            | 428 Evans | F  9am-1pm          |
 
 
