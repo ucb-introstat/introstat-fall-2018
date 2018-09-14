@@ -89,7 +89,7 @@
     + [Chapter 8: Computing the correlation coefficient](https://www.stat.berkeley.edu/~stark/SticiGui/Text/computeR.htm)
 - :microscope: __Lab__:
     + [3a: Spreads and normal curve](../labs/lab03a-spreads-normal-questions.pdf) (Tu; due Sep-12)
-    + 3b: Scatterplots and correlation (Th; due Sep-14)
+    + [3b: Scatterplots and correlation](../labs/lab03b-scatterplots-questions.pdf) (Th; due Sep-14)
 - :bulb: __Cheatsheet__: [Data import cheat sheet](../cheatsheets/data-import-cheatsheet.pdf)
 - :dart: __HW 03__: [Correlation](../hws/hw03-questions.pdf) (due Sep-17)
 
