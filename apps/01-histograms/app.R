@@ -19,6 +19,7 @@ quantitative <- c(
 
 # select just quantitative variables
 dat <- nba[ ,quantitative]
+dat$salary <- dat$salary / 1000000
 
 
 # Define UI for application that draws a histogram
@@ -39,7 +40,13 @@ ui <- fluidPage(
                      max = 50,
                      value = 10),
          
-         checkboxInput('density', label = strong('Use density scale'))
+         checkboxInput('density', label = strong('Use density scale')),
+         checkboxInput('mean', label = strong('Show mean')),
+#         helpText('Mean:'),
+         verbatimTextOutput("mean"),
+         checkboxInput('median', label = strong('Show median')),
+#         helpText('Median:'),
+         verbatimTextOutput("median")
       ),
       
       # Show a plot of the generated distribution
@@ -52,7 +59,15 @@ ui <- fluidPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-   
+  # Mean
+  output$mean <- renderPrint({ 
+    mean(dat[ ,input$variable], na.rm = TRUE)
+  })
+  # Median
+  output$median <- renderPrint({ 
+    median(dat[ ,input$variable], na.rm = TRUE)
+  })
+  
    output$histogram <- renderPlot({
       # generate bins based on input$bins from ui.R
       x    <- na.omit(dat[ ,input$variable])
@@ -65,6 +80,15 @@ server <- function(input, output) {
            main = paste("Histogram of", input$variable))
       axis(side = 2, las = 1)
       axis(side = 1, at = bins, labels = round(bins, 2))
+      
+      # centers
+      if (input$mean) {
+        abline(v = mean(x), col = 'tomato', lwd = 4, lty = 2)
+        points(mean(x), -3, pch = 17, cex = 2, col = 'tomato')
+      }
+      if (input$median) {
+        abline(v = median(x), col = 'orange', lwd = 4)
+      }
       
    })
 }
