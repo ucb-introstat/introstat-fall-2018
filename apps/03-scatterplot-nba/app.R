@@ -1,3 +1,7 @@
+# Title: Scatterplots with NBA Players Data
+# Description: Uses data of NBA players to show various scatter diagrams
+# Author: Gaston Sanchez
+
 library(shiny)
 
 # data set
@@ -18,7 +22,7 @@ dat <- nba[ ,quantitative]
 dat$salary <- dat$salary / 1000000
 
 
-# Define UI for application that draws a histogram
+# Define UI for application that draws a scatterdiagram
 ui <- fluidPage(
   
   # Give the page a title
