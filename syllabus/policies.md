@@ -49,12 +49,23 @@ for participation.
     + full credit: lab attendance and complete submission on time.
     + half credit: lab attendance but no submission, or no attendance with complete submission on time.
     + late submission (up to a week after due date) will receive a 50% deduction.
-
+- Lab submissions will be graded on completion, using a coarse scale:
+    + 0: no submission
+    + 2: submission but very poor (e.g. got started but there's just 30% of problems solved)
+    + 5: half-way there (e.g. about 50% of problems solved)
+    + 8: Mostly completed but one or two questions missing.
+    + 10: full credit, everything is completed
 
 
 ### Homework
 
 - Homework assignments will be assigned every week.
+- HW will be graded on correctness, using a coarse scale:
+    + 0: no submission
+    + 2: very poor (e.g. got started but most solutions are wrong)
+    + 5: half-way there (e.g. about 50% of problems solved correclty)
+    + 8: Mostly right but a minor missing or wrong.
+    + 10: full credit, 100% correct
 - Homework assignments are __NOT__ eligible for regrades.
 - The homework assignments will get substantially more difficult as we
 progress with the course.
