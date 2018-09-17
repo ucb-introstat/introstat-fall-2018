@@ -111,7 +111,7 @@
 - :microscope: __Lab__:
     + 4a: Regression line with R (Tu; due Sep-19)
     + 4b: Predictions and Errors with R (Th; due Sep-21)
-- :dart: __HW 04__: Regression (due Sep-24)
+- :dart: __HW 04__: [Regression](../hws/hw04-questions.pdf) (due Sep-24)
 
 
 -----
