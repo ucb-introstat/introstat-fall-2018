@@ -109,7 +109,7 @@
     + [Chapter 9: Regression](https://www.stat.berkeley.edu/~stark/SticiGui/Text/regression.htm)
     + [Chapter 10: Regression Diagnostics](https://www.stat.berkeley.edu/~stark/SticiGui/Text/regressionDiagnostics.htm)
 - :microscope: __Lab__:
-    + 4a: Regression line with R (Tu; due Sep-19)
+    + [4a: Correlations](../labs/lab04a-correlation-questions.pdf) (Tu; due Sep-19)
     + 4b: Predictions and Errors with R (Th; due Sep-21)
 - :dart: __HW 04__: [Regression](../hws/hw04-questions.pdf) (due Sep-24)
 
