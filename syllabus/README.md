@@ -129,7 +129,7 @@
 - :microscope: __Lab__:
     + 5a: More Regression (Tu; due Sep-26)
     + 5b: Review session (Th)
-- :dart: __HW 05__: Regression (due Sep-30)
+- :dart: __HW 05__: [More Regression](../hws/hw05-questions.pdf) (due Sep-30)
 - :mortar_board: __MIDTERM 1__: Friday Sep-28
 
 
