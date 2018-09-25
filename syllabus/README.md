@@ -127,7 +127,7 @@
 - :book: __Reading__:
     + [Chapter 11: Errors in Regression](https://www.stat.berkeley.edu/~stark/SticiGui/Text/regressionErrors.htm)
 - :microscope: __Lab__:
-    + 5a: More Regression (Tu; due Sep-26)
+    + [5a: More Regression](../labs/lab05a-regression-questions.pdf) (Tu; due Sep-26)
     + 5b: Review session (Th)
 - :dart: __HW 05__: [More Regression](../hws/hw05-questions.pdf) (due Sep-30)
 - :mortar_board: __MIDTERM 1__: Friday Sep-28
