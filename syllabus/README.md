@@ -151,7 +151,7 @@
 - :microscope: __Lab__:
     + 6a: Probability basics (Tu; due Oct-03)
     + 6b: Probability rules 1 (Th; due Oct-05)
-- :dart: __HW 06__: TBD (due Oct-08)
+- :dart: __HW 06__: [Probability Basics](../hws/hw06-questions.pdf) (due Oct-08)
 
 
 -----
