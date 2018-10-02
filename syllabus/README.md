@@ -1,7 +1,7 @@
 # Syllabus, Stat 131A
 
 - __Icons__:
-    + Tentative calendar (weekly topics), subject to changes depending on 
+    + Tentative calendar (weekly topics), subject to changes depending on
     the pace of the course.
     + Notes (:file_folder:) involves material discussed in class.
     + Reading (:book:) involves related chapters from __SticiGui__ text.
@@ -23,7 +23,7 @@
     + [Chapter 3: Statistics](https://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm)
 - :microscope: __Lab__: No lab
 - :speaker: __To Do__: Please spend some time outside class to review the course policies, and piazza etiquette rules.
-    + Install [__R__](https://cran.cnr.berkeley.edu/) 
+    + Install [__R__](https://cran.cnr.berkeley.edu/)
     + Install [RStudio](https://www.rstudio.com/products/rstudio/download/#download) Desktop (open source version, free)
 
 
@@ -141,7 +141,7 @@
 - :card_index: __Dates__: Oct 01-05
 - :paperclip: __Topics__: Statistics can be used for making decisions when we are faced with uncertainties. To do so, you need to learn some of the basic tools provided by Probability, the branch of Math that studies randomness. This part of the course gives you a general introduction to probability.
 - :file_folder: __Notes__:
-    + Probability: what is it? 
+    + Probability: what is it?
     + [Probability concepts (part 1)](../slides/istat-lec15-probability1.pdf)
     + [Probability concepts (part 2)](../slides/istat-lec16-probability2.pdf)
 - :book: __Reading__:
@@ -149,7 +149,7 @@
     + [Chapter 17: Probability, Axioms and Fundamentals](https://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityAxioms.htm)
     + [Chapter 18: The Monty Hall Problem](https://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHall.htm)
 - :microscope: __Lab__:
-    + 6a: Probability basics (Tu; due Oct-03)
+    + [6a: Probability basics](../labs/lab06a-probability1-questions.pdf) (Tu; due Oct-03)
     + 6b: Probability rules 1 (Th; due Oct-05)
 - :dart: __HW 06__: [Probability Basics](../hws/hw06-questions.pdf) (due Oct-08)
 
@@ -166,7 +166,7 @@
     + [Intro to Random Variables and box models](../slides/istat-lec18-random-variables.pdf)
 - :book: __Reading__:
     + [Chapter 19: Probability Meets Data](https://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHallTest.htm) (Binomial Distribution)
-    + [Chapter 20: Random Variables and Discrete Distributions](https://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm) 
+    + [Chapter 20: Random Variables and Discrete Distributions](https://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm)
 - :microscope: __Lab__:
     + 7a: Probability rules 2 (Tu; due Oct-10)
     + 7b: TBD (Th; due Oct-12)
@@ -220,7 +220,7 @@
 ## 10. Sampling and Chance Errors (part 2)
 
 - :card_index: __Dates__: Oct 29-31, Nov 02
-- :paperclip: __Topics__: Recall that one of the goals of inference is to draw a conclusion about a population on the basis of a random sample from the population. This involves using a probability model that describes the long-run behavior of sample measurements. In this part of the course we continue to develop the probability machinery that underlies inference (i.e. drawing conclusions from sample data). 
+- :paperclip: __Topics__: Recall that one of the goals of inference is to draw a conclusion about a population on the basis of a random sample from the population. This involves using a probability model that describes the long-run behavior of sample measurements. In this part of the course we continue to develop the probability machinery that underlies inference (i.e. drawing conclusions from sample data).
 - :file_folder: __Notes__:
     + Sampling distributions
     + Chance errors
@@ -313,4 +313,3 @@
     + No lecture. Instructor will hold OH (in 309 Evans)
 - :mortar_board: __FINAL__: Dec Th 13, 3-6pm, Room TBA
     + See announcement about the final test on bCourses
-
