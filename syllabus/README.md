@@ -150,7 +150,7 @@
     + [Chapter 18: The Monty Hall Problem](https://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHall.htm)
 - :microscope: __Lab__:
     + [6a: Probability basics](../labs/lab06a-probability1-questions.pdf) (Tu; due Oct-03)
-    + 6b: Probability rules 1 (Th; due Oct-05)
+    + [6b: Probability rules 1](../labs/lab06b-probability2-questions.pdf) (Th; due Oct-05)
 - :dart: __HW 06__: [Probability Basics](../hws/hw06-questions.pdf) (due Oct-08)
 
 
