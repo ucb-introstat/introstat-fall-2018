@@ -170,7 +170,7 @@
 - :microscope: __Lab__:
     + 7a: Probability rules 2 (Tu; due Oct-10)
     + 7b: TBD (Th; due Oct-12)
-- :dart: __HW 07__: TBD (due Oct-15)
+- :dart: __HW 07__: [More Probability](../hws/hw07-questions.pdf) (due Oct-15)
 
 
 -----
