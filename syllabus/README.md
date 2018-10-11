@@ -169,7 +169,7 @@
     + [Chapter 20: Random Variables and Discrete Distributions](https://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm)
 - :microscope: __Lab__:
     + [7a: Probability rules 2](../labs/lab07a-more-prob-questions.pdf) (Tu; due Oct-10)
-    + 7b: TBD (Th; due Oct-12)
+    + [7b: Box Models](../lbasl/lab07b-box-models-questions.pdf) (Th; due Oct-12)
 - :dart: __HW 07__: [More Probability](../hws/hw07-questions.pdf) (due Oct-15)
 
 
