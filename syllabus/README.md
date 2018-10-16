@@ -190,9 +190,9 @@
     + [Chapter 21: The Long Run and the Expected Value](https://www.stat.berkeley.edu/~stark/SticiGui/Text/expectation.htm)
     + [Chapter 22: Standard Error](https://www.stat.berkeley.edu/~stark/SticiGui/Text/standardError.htm)
 - :microscope: __Lab__:
-    + 8a: TBD (Tu; due Oct-17)
-    + 8b: TBD (Th; due Oct-19)
-- :dart: __HW 08__: TBD (due Oct-22)
+    + [8a: Expected Value and Variance](../lasb/lab08a-exp-value-questions.pdf) (Tu; due Oct-17)
+    + 8b: Binomial Distribution (Th; due Oct-19)
+- :dart: __HW 08__: [Binomial Distribution](../hws/hw08-questions.pdf) (due Oct-22)
 
 
 -----
