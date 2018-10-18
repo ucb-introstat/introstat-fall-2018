@@ -191,7 +191,7 @@
     + [Chapter 22: Standard Error](https://www.stat.berkeley.edu/~stark/SticiGui/Text/standardError.htm)
 - :microscope: __Lab__:
     + [8a: Expected Value and Variance](../lasb/lab08a-exp-value-questions.pdf) (Tu; due Oct-17)
-    + 8b: Binomial Distribution (Th; due Oct-19)
+    + [8b: Binomial Distribution](../lasb/lab08b-binomial-questions.pdf) (Th; due Oct-19)
 - :dart: __HW 08__: [Binomial Distribution](../hws/hw08-questions.pdf) (due Oct-22)
 
 
