@@ -181,14 +181,13 @@
 - :card_index: __Dates__: Oct 15-19
 - :paperclip: __Topics__: We dive deep into two of the most famous probability distributions: the Binomial distribution, and the Normal distribution. We also introduce the concepts of expected value and standard deviation/error of tickets randomly sampled from box models.
 - :file_folder: __Notes__:
-    + Binomial Distribution
-    + Normal Distribution (reminder)
-    + Expected value
-    + Standard error
+    + [Binomial Distribution](../slides/istat-lec18-binomial.pdf)
+    + [Expected value and Standard error](../slides/istat-lec20-expvalue-stderror.pdf)
+    + [Normal Approximation](../slides/istat-lec21-normal-approximation.pdf)
 - :book: __Reading__:
-    + [Chapter 23: Normal Distribution](https://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm)
     + [Chapter 21: The Long Run and the Expected Value](https://www.stat.berkeley.edu/~stark/SticiGui/Text/expectation.htm)
     + [Chapter 22: Standard Error](https://www.stat.berkeley.edu/~stark/SticiGui/Text/standardError.htm)
+    + [Chapter 23: Normal Distribution](https://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm)
 - :microscope: __Lab__:
     + [8a: Expected Value and Variance](../lasb/lab08a-exp-value-questions.pdf) (Tu; due Oct-17)
     + [8b: Binomial Distribution](../lasb/lab08b-binomial-questions.pdf) (Th; due Oct-19)
