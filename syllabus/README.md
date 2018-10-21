@@ -202,15 +202,15 @@
 - :card_index: __Dates__: Oct 22-26
 - :paperclip: __Topics__: A central topic in statistics has to do with Inference: the problem of obtaining information about a population without examining every unit in the population—--only a random sample from the population. Obviously, random samples vary, so we need to understand how much they vary and how they relate to the population.
 - :file_folder: __Notes__:
-    + More expected value and standard error
-    + Sampling
+    + [Intro to sampling](../slides/istat-lec22-sample-surverys.pdf)
+    + [Sample design](../slides/istat-lec23-sample-designs.pdf)
 - :book: __Reading__:
     + [Chapter 24: Sampling](https://www.stat.berkeley.edu/~stark/SticiGui/Text/sampling.htm)
     + [Chapter 25: Estimating Parameters from SRS](https://www.stat.berkeley.edu/~stark/SticiGui/Text/estimation.htm)
 - :microscope: __Lab__:
-    + 9a: TBD (Tu; due Oct-24)
-    + 9b: TBD (Th; due Oct-26)
-- :dart: __HW 09__: TBD (due Oct-29)
+    + 9a: Expected value and standard error (Tu; due Oct-24)
+    + 9b: Sampling (Th; due Oct-26)
+- :dart: __HW 09__: Standard Errors (due Oct-29)
 
 
 -----

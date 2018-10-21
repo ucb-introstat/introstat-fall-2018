@@ -111,9 +111,8 @@ Grades will be assigned using the following (tentative) weighted components:
 
 | Concept              | Weight |
 |----------------------|--------|
-| Class participation  |   5%   |
 | Lab work             |  10%   |
-| Homework             |  15%   |
+| Homework             |  20%   |
 | Midterms             |  30%   |
 | Final                |  40%   |
 
