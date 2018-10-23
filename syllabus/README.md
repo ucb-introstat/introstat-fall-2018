@@ -208,9 +208,9 @@
     + [Chapter 24: Sampling](https://www.stat.berkeley.edu/~stark/SticiGui/Text/sampling.htm)
     + [Chapter 25: Estimating Parameters from SRS](https://www.stat.berkeley.edu/~stark/SticiGui/Text/estimation.htm)
 - :microscope: __Lab__:
-    + 9a: Expected value and standard error (Tu; due Oct-24)
+    + [9a: Expected value and standard error](../labs/lab09a-exp-se-questions.pdf) (Tu; due Oct-24)
     + 9b: Sampling (Th; due Oct-26)
-- :dart: __HW 09__: Standard Errors (due Oct-29)
+- :dart: __HW 09__: [Standard Errors](../hws/hw09-questions.pdf) (due Oct-29)
 
 
 -----
