@@ -221,14 +221,14 @@
 - :card_index: __Dates__: Oct 29-31, Nov 02
 - :paperclip: __Topics__: Recall that one of the goals of inference is to draw a conclusion about a population on the basis of a random sample from the population. This involves using a probability model that describes the long-run behavior of sample measurements. In this part of the course we continue to develop the probability machinery that underlies inference (i.e. drawing conclusions from sample data).
 - :file_folder: __Notes__:
-    + A little bit about chance errors
     + Sampling distributions (chalk and talk)
+    + Tentative Review
 - :book: __Reading__: 
     + [Chapter 25: Estimating Parameters from SRS](https://www.stat.berkeley.edu/~stark/SticiGui/Text/estimation.htm)
 - :microscope: __Lab__:
     + 10a: Sampling distributions (Tu; due Oct-31)
     + 10b: Review Session (Th)
-- :dart: __HW 10__: TBD (due Nov-02)
+- :dart: __HW 10__: [Sampling Distributions](../hws/hw10-questions.pdf) (due Nov-05)
 - :mortar_board: __MIDTERM 2__: Friday Nov-02
 
 
