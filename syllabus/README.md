@@ -226,7 +226,7 @@
 - :book: __Reading__: 
     + [Chapter 25: Estimating Parameters from SRS](https://www.stat.berkeley.edu/~stark/SticiGui/Text/estimation.htm)
 - :microscope: __Lab__:
-    + 10a: Sampling distributions (Tu; due Oct-31)
+    + [10a: Sampling distributions](../labs/lab10a-sampling-distribs-questions.pdf) (Tu; due Oct-31)
     + 10b: Review Session (Th)
 - :dart: __HW 10__: [Sampling Distributions](../hws/hw10-questions.pdf) (due Nov-05)
 - :mortar_board: __MIDTERM 2__: Friday Nov-02
