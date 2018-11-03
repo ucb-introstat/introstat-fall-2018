@@ -204,6 +204,7 @@
 - :file_folder: __Notes__:
     + [Intro to sampling](../slides/istat-lec22-sample-surverys.pdf)
     + [Sample design](../slides/istat-lec23-sample-designs.pdf)
+    + [Chance Errors](../slides/istat-lec24-chance-errors-sampling.pdf)
 - :book: __Reading__:
     + [Chapter 24: Sampling](https://www.stat.berkeley.edu/~stark/SticiGui/Text/sampling.htm)
     + [Chapter 25: Estimating Parameters from SRS](https://www.stat.berkeley.edu/~stark/SticiGui/Text/estimation.htm)
@@ -221,7 +222,8 @@
 - :card_index: __Dates__: Oct 29-31, Nov 02
 - :paperclip: __Topics__: Recall that one of the goals of inference is to draw a conclusion about a population on the basis of a random sample from the population. This involves using a probability model that describes the long-run behavior of sample measurements. In this part of the course we continue to develop the probability machinery that underlies inference (i.e. drawing conclusions from sample data).
 - :file_folder: __Notes__:
-    + Sampling distributions (chalk and talk)
+    + [Sample Distributions](../slides/istat-lec25-sampling-distributions.pdf)
+    + More Sampling distributions (chalk and talk)
     + Tentative Review
 - :book: __Reading__: 
     + [Chapter 25: Estimating Parameters from SRS](https://www.stat.berkeley.edu/~stark/SticiGui/Text/estimation.htm)
@@ -240,8 +242,8 @@
 - :card_index: __Dates__: Nov 05-09
 - :paperclip: __Topics__: In inference, we use a sample to draw a conclusion about a population. Two types of inference are the focus of our work in this course: 1) estimate a population parameter with a confidence interval; 2) test a claim about a population parameter with a hypothesis test. The purpose of a confidence interval is to use a sample statistic (e.g. proportion, mean) to construct an interval of values that we can be reasonably confident contains the population parameter.
 - :file_folder: __Notes__:
-    + Confidence Intervals for Proportions
-    + Confidence Intervals for Means
+    + [Confidence Intervals for Proportions](../slides/istat-lec26-accuracy-percentages.pdf)
+    + [Confidence Intervals for Means](../slides/istat-lec27-accuracy-averages.pdf)
 - :book: __Reading__:
     + [Chapter 26: Confidence Intervals](https://www.stat.berkeley.edu/~stark/SticiGui/Text/confidenceIntervals.htm)
 - :microscope: __Lab__:
