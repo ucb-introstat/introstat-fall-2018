@@ -250,7 +250,7 @@
 - :microscope: __Lab__:
     + [11a: Confidence Intervals for Proportions](../labs/lab11a-ci4proportions-questions.pdf) (Tu; due Nov-07)
     + 11b: Confidence Intervals for Means TBD (Th; due Nov-09)
-- :dart: __HW 11__: TBD (due Nov-12)
+- :dart: __HW 11__: [Confidence Intervals](../hws/hw11-questions.pdf) (due Nov-12)
 
 
 -----
