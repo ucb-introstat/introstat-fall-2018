@@ -244,11 +244,12 @@
 - :file_folder: __Notes__:
     + [Confidence Intervals for Proportions](../slides/istat-lec26-accuracy-percentages.pdf)
     + [Confidence Intervals for Means](../slides/istat-lec27-accuracy-averages.pdf)
+    + Introduction to Hypothesis Tests (chalk and talk)
 - :book: __Reading__:
     + [Chapter 26: Confidence Intervals](https://www.stat.berkeley.edu/~stark/SticiGui/Text/confidenceIntervals.htm)
 - :microscope: __Lab__:
-    + 11a: TBD (Tu; due Nov-07)
-    + 11b: TBD (Th; due Nov-09)
+    + [11a: Confidence Intervals for Proportions](../labs/lab11a-ci4proportions-questions.pdf) (Tu; due Nov-07)
+    + 11b: Confidence Intervals for Means TBD (Th; due Nov-09)
 - :dart: __HW 11__: TBD (due Nov-12)
 
 
