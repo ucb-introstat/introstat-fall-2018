@@ -249,7 +249,7 @@
     + [Chapter 26: Confidence Intervals](https://www.stat.berkeley.edu/~stark/SticiGui/Text/confidenceIntervals.htm)
 - :microscope: __Lab__:
     + [11a: Confidence Intervals for Proportions](../labs/lab11a-ci4proportions-questions.pdf) (Tu; due Nov-07)
-    + 11b: Confidence Intervals for Means TBD (Th; due Nov-09)
+    + [11b: Confidence Intervals for Means](../labs/lab11b-ci4means-questions.pdf) (Th; due Nov-09)
 - :dart: __HW 11__: [Confidence Intervals](../hws/hw11-questions.pdf) (due Nov-12)
 
 
