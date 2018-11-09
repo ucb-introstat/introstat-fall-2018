@@ -244,7 +244,7 @@
 - :file_folder: __Notes__:
     + [Confidence Intervals for Proportions](../slides/istat-lec26-accuracy-percentages.pdf)
     + [Confidence Intervals for Means](../slides/istat-lec27-accuracy-averages.pdf)
-    + Introduction to Hypothesis Tests (chalk and talk)
+    + [Introduction to Hypothesis Tests](../slides/istat-lec28-hypothesis-tests.pdf)
 - :book: __Reading__:
     + [Chapter 26: Confidence Intervals](https://www.stat.berkeley.edu/~stark/SticiGui/Text/confidenceIntervals.htm)
 - :microscope: __Lab__:
@@ -261,7 +261,7 @@
 - :card_index: __Dates__: Nov 12-16 _(Holiday Nov 12)_
 - :paperclip: __Topics__: Now we look more carefully at the second type of inferential task: testing a claim about a population parameter. We begin our discussion of hypothesis tests with research questions that require us to test a claim. Later we look at how a claim becomes a hypothesis.
 - :file_folder: __Notes__:
-    + Introduction to Hypothesis Tests
+    + Hypothesis test for one Proportion
     + Hypothesis test for one Mean
 - :book: __Reading__:
     + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
