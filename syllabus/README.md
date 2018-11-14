@@ -267,7 +267,7 @@
 - :book: __Reading__:
     + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
 - :microscope: __Lab__:
-    + [12a: Hypothesis for one proportion](../labs/lab12a-test4proportions-questions) (Tu; due Nov-14)
+    + [12a: Hypothesis for one proportion](../labs/lab12a-test4proportions-questions.pdf) (Tu; due Nov-14)
     + 12b: Hypothesis for one mean (Th; due Nov-16)
 - :dart: __HW 12__: [Inference](../hws/hw12-questions.pdf) (due Nov-30)
 
