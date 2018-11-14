@@ -268,6 +268,7 @@
 - :microscope: __Lab__:
     + [12a: Hypothesis for one proportion](../labs/lab12a-test4proportions-questions) (Tu; due Nov-14)
     + 12b: Hypothesis for one mean (Th; due Nov-16)
+- :dart: __HW 12__: [Inference](../hws/hw12-questions.pdf) (due Nov-30)
 
 
 -----
@@ -299,7 +300,6 @@
 - :microscope: __Lab__:
     + 14a: TBD (Tu; due Nov-28)
     + 14b: TBD (Th; due Nov-30)
-- :dart: __HW 12__: TBD (due Dec-02)
 
 
 -----
