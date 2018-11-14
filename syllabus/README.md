@@ -261,6 +261,7 @@
 - :card_index: __Dates__: Nov 12-16 _(Holiday Nov 12)_
 - :paperclip: __Topics__: Now we look more carefully at the second type of inferential task: testing a claim about a population parameter. We begin our discussion of hypothesis tests with research questions that require us to test a claim. Later we look at how a claim becomes a hypothesis.
 - :file_folder: __Notes__:
+    + [One sample Z-test](../slides/istat-lec29-one-sample-z-test.pdf)
     + Hypothesis test for one Proportion
     + Hypothesis test for one Mean
 - :book: __Reading__:
