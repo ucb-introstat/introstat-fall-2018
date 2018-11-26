@@ -67,9 +67,7 @@ Algebraically, we typically denote a set of values by $x_1, x_2, \dots, x_n$,
 in which the index $n$ represents the total number of values. Using this 
 notation, the formula of the average is expressed as:
 
-$$
-average = \frac{x_1 + x_2 + \dots + x_n}{n}
-$$
+$$average = \frac{x_1 + x_2 + \dots + x_n}{n}$$
 
 Using summation notation, the average can be compactly expressed as:
 
