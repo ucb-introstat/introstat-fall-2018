@@ -280,7 +280,7 @@
 - :card_index: __Dates__: Nov 19-23 _(No instruction Nov 21-23)_
 - :paperclip: __Topics__: Tests of significance.
 - :file_folder: __Notes__:
-    + Hypothesis test for one Proportion
+    + [One sample t-test](../slides/istat-lec30-one-sample-t-test.pdf)
 - :book: __Reading__:
     + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
 - :microscope: __Lab__:
