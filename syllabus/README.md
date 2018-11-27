@@ -278,13 +278,7 @@
 ## 13. Thanksgiving Week
 
 - :card_index: __Dates__: Nov 19-23 _(No instruction Nov 21-23)_
-- :paperclip: __Topics__: Tests of significance.
-- :file_folder: __Notes__:
-    + [One sample t-test](../slides/istat-lec30-one-sample-t-test.pdf)
-- :book: __Reading__:
-    + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
-- :microscope: __Lab__:
-    + 13a: TBD (Tu; due Nov-21)
+- :paperclip: __Topics__: No classes due to bad air quality, and Thanksgiving.
 
 
 -----
@@ -295,12 +289,14 @@
 - :card_index: __Dates__: Nov 26-30
 - :paperclip: __Topics__: More about tests of significance.
 - :file_folder: __Notes__:
+    + [One sample t-test](../slides/istat-lec30-one-sample-t-test.pdf)
     + More about tests
 - :book: __Reading__:
+    + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
     + [Chapter 31: Chi-Squared Test](https://www.stat.berkeley.edu/~stark/SticiGui/Text/chiSquare.htm)
 - :microscope: __Lab__:
-    + 14a: TBD (Tu; due Nov-28)
-    + 14b: TBD (Th; due Nov-30)
+    + [13a: One-sample t-test](../labs/lab13a-t-test-questions.pdf) (Tu; due Nov-14) (Tu; due Nov-28)
+    + 13b: TBD (Th; due Nov-30)
 
 
 -----
