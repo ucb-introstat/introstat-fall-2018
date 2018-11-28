@@ -290,7 +290,7 @@
 - :paperclip: __Topics__: More about tests of significance.
 - :file_folder: __Notes__:
     + [One sample t-test](../slides/istat-lec30-one-sample-t-test.pdf)
-    + More about tests
+    + [Two sample z-test](../slides/istat-lec31-two-sample-avgs.pdf)
 - :book: __Reading__:
     + [Chapter 27: Hypothesis Testing](https://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm)
     + [Chapter 31: Chi-Squared Test](https://www.stat.berkeley.edu/~stark/SticiGui/Text/chiSquare.htm)
