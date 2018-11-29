@@ -296,7 +296,7 @@
     + [Chapter 31: Chi-Squared Test](https://www.stat.berkeley.edu/~stark/SticiGui/Text/chiSquare.htm)
 - :microscope: __Lab__:
     + [13a: One-sample t-test](../labs/lab13a-t-test-questions.pdf) (Tu; due Nov-14) (Tu; due Nov-28)
-    + 13b: TBD (Th; due Nov-30)
+    + [13b: Two-sample tests](../labs/lab13b-two-sample-test-questions.pdf) (Th; due Nov-30)
 
 
 -----
